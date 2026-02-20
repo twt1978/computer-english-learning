@@ -324,6 +324,16 @@ body {
   background: var(--surface-hover);
 }
 
+.prev-btn {
+  background: var(--surface);
+  color: var(--text-primary);
+  border: 1px solid var(--border);
+}
+
+.prev-btn:hover {
+  background: var(--surface-hover);
+}
+
 .favorite-btn {
   background: var(--surface);
   color: var(--text-primary);

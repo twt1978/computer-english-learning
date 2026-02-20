@@ -172,6 +172,10 @@
       document.getElementById('next-btn').addEventListener('click', () => {
         this.nextCard();
       });
+
+      document.getElementById('prev-btn').addEventListener('click', () => {
+        this.prevCard();
+      });
     }
 
     loadCard() {
@@ -293,6 +297,11 @@
 
     nextCard() {
       this.currentIndex = (this.currentIndex + 1) % this.currentItems.length;
+      this.loadCard();
+    }
+
+    prevCard() {
+      this.currentIndex = (this.currentIndex - 1 + this.currentItems.length) % this.currentItems.length;
       this.loadCard();
     }
 

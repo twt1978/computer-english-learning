@@ -765,6 +765,286 @@ const computerEnglishData = {
           "pronunciation": "/ˈsɪɡnl/",
           "example": "Send a SIGTERM signal",
           "category": "processes"
+        },
+        {
+          "id": "s016",
+          "english": "Fork",
+          "chinese": "创建子进程",
+          "pronunciation": "/fɔːrk/",
+          "example": "The process forks a child process",
+          "category": "processes"
+        },
+        {
+          "id": "s017",
+          "english": "Zombie Process",
+          "chinese": "僵尸进程",
+          "pronunciation": "/ˈzɒmbi ˈprɒsɛs/",
+          "example": "Kill the zombie processes",
+          "category": "processes"
+        },
+        {
+          "id": "s018",
+          "english": "Orphan Process",
+          "chinese": "孤儿进程",
+          "pronunciation": "/ˈɔːrfən ˈprɒsɛs/",
+          "example": "The orphan process is adopted by init",
+          "category": "processes"
+        },
+        {
+          "id": "s019",
+          "english": "Virtual Memory",
+          "chinese": "虚拟内存",
+          "pronunciation": "/ˈvɜːrtʃuəl ˈmɛməri/",
+          "example": "The system uses virtual memory",
+          "category": "memory"
+        },
+        {
+          "id": "s020",
+          "english": "Swap",
+          "chinese": "交换分区/内存交换",
+          "pronunciation": "/swɒp/",
+          "example": "The system is swapping to disk",
+          "category": "memory"
+        },
+        {
+          "id": "s021",
+          "english": "Page Fault",
+          "chinese": "页错误",
+          "pronunciation": "/peɪdʒ fɒlt/",
+          "example": "High page fault rate indicates memory pressure",
+          "category": "memory"
+        },
+        {
+          "id": "s022",
+          "english": "Cache",
+          "chinese": "缓存",
+          "pronunciation": "/kæʃ/",
+          "example": "Clear the DNS cache",
+          "category": "memory"
+        },
+        {
+          "id": "s023",
+          "english": "Inode",
+          "chinese": "索引节点",
+          "pronunciation": "/ˈaɪnoʊd/",
+          "example": "Check inode usage with df -i",
+          "category": "storage"
+        },
+        {
+          "id": "s024",
+          "english": "Partition",
+          "chinese": "分区",
+          "pronunciation": "/pɑːrˈtɪʃn/",
+          "example": "Create a new disk partition",
+          "category": "storage"
+        },
+        {
+          "id": "s025",
+          "english": "Symlink",
+          "chinese": "符号链接",
+          "pronunciation": "/ˈsɪmlɪŋk/",
+          "example": "Create a symbolic link",
+          "category": "storage"
+        },
+        {
+          "id": "s026",
+          "english": "Pipe",
+          "chinese": "管道",
+          "pronunciation": "/paɪp/",
+          "example": "Use pipe to chain commands",
+          "category": "io"
+        },
+        {
+          "id": "s027",
+          "english": "Redirect",
+          "chinese": "重定向",
+          "pronunciation": "/ˌriːdəˈrɛkt/",
+          "example": "Redirect output to a file",
+          "category": "io"
+        },
+        {
+          "id": "s028",
+          "english": "Crontab",
+          "chinese": "定时任务表",
+          "pronunciation": "/ˈkrɒntæb/",
+          "example": "Edit the crontab to schedule tasks",
+          "category": "scheduling"
+        },
+        {
+          "id": "s029",
+          "english": "Systemd",
+          "chinese": "系统和服务管理器",
+          "pronunciation": "/ˈsɪstəmdiː/",
+          "example": "Use systemd to manage services",
+          "category": "services"
+        },
+        {
+          "id": "s030",
+          "english": "Service",
+          "chinese": "服务",
+          "pronunciation": "/ˈsɜːrvɪs/",
+          "example": "Restart the nginx service",
+          "category": "services"
+        },
+        {
+          "id": "s031",
+          "english": "Package Manager",
+          "chinese": "包管理器",
+          "pronunciation": "/ˈpækɪdʒ ˈmænɪdʒər/",
+          "example": "Use apt package manager",
+          "category": "package"
+        },
+        {
+          "id": "s032",
+          "english": "Repository",
+          "chinese": "软件源/仓库",
+          "pronunciation": "/rɪˈpɒzɪtɔːri/",
+          "example": "Add the official repository",
+          "category": "package"
+        },
+        {
+          "id": "s033",
+          "english": "PID",
+          "chinese": "进程ID",
+          "pronunciation": "/piː aɪ diː/",
+          "example": "Find the process by PID",
+          "category": "processes"
+        },
+        {
+          "id": "s034",
+          "english": "Load Average",
+          "chinese": "平均负载",
+          "pronunciation": "/loʊd ˈævərɪdʒ/",
+          "example": "Check system load average with uptime",
+          "category": "monitoring"
+        },
+        {
+          "id": "s035",
+          "english": "CPU Usage",
+          "chinese": "CPU使用率",
+          "pronunciation": "/siː piː juː ˈjuːsɪdʒ/",
+          "example": "Monitor CPU usage with top",
+          "category": "monitoring"
+        },
+        {
+          "id": "s036",
+          "english": "Memory Leak",
+          "chinese": "内存泄漏",
+          "pronunciation": "/ˈmɛməri liːk/",
+          "example": "Detect and fix memory leaks",
+          "category": "memory"
+        },
+        {
+          "id": "s037",
+          "english": "Disk I/O",
+          "chinese": "磁盘输入输出",
+          "pronunciation": "/dɪsk aɪ oʊ/",
+          "example": "High disk I/O affects performance",
+          "category": "monitoring"
+        },
+        {
+          "id": "s038",
+          "english": "Throughput",
+          "chinese": "吞吐量",
+          "pronunciation": "/ˈθruːpʊt/",
+          "example": "Measure network throughput",
+          "category": "performance"
+        },
+        {
+          "id": "s039",
+          "english": "Latency",
+          "chinese": "延迟",
+          "pronunciation": "/ˈleɪtənsi/",
+          "example": "Reduce system latency",
+          "category": "performance"
+        },
+        {
+          "id": "s040",
+          "english": "Context Switch",
+          "chinese": "上下文切换",
+          "pronunciation": "/ˈkɒntɛkst swɪtʃ/",
+          "example": "High context switch rate",
+          "category": "processes"
+        },
+        {
+          "id": "s041",
+          "english": "Interrupt",
+          "chinese": "中断",
+          "pronunciation": "/ˈɪntərʌpt/",
+          "example": "Hardware interrupt handling",
+          "category": "hardware"
+        },
+        {
+          "id": "s042",
+          "english": "SELinux",
+          "chinese": "安全增强Linux",
+          "pronunciation": "/ɛs iː lɪˈnʌks/",
+          "example": "Configure SELinux policies",
+          "category": "security"
+        },
+        {
+          "id": "s043",
+          "english": "Firewall",
+          "chinese": "防火墙",
+          "pronunciation": "/ˈfaɪərwɔːl/",
+          "example": "Configure iptables firewall",
+          "category": "security"
+        },
+        {
+          "id": "s044",
+          "english": "Kernel Panic",
+          "chinese": "内核崩溃",
+          "pronunciation": "/ˈkɜːrnl ˈpænɪk/",
+          "example": "System encountered kernel panic",
+          "category": "os"
+        },
+        {
+          "id": "s045",
+          "english": "Bootloader",
+          "chinese": "引导加载程序",
+          "pronunciation": "/ˈbuːtˌloʊdər/",
+          "example": "GRUB is a common bootloader",
+          "category": "os"
+        },
+        {
+          "id": "s046",
+          "english": "Initramfs",
+          "chinese": "初始化内存文件系统",
+          "pronunciation": "/ˈɪnɪtræmfs/",
+          "example": "The kernel loads initramfs",
+          "category": "os"
+        },
+        {
+          "id": "s047",
+          "english": "Runlevel",
+          "chinese": "运行级别",
+          "pronunciation": "/ˈrʌnlɛvəl/",
+          "example": "Change to runlevel 3",
+          "category": "os"
+        },
+        {
+          "id": "s048",
+          "english": "System Call",
+          "chinese": "系统调用",
+          "pronunciation": "/ˈsɪstəm kɔːl/",
+          "example": "The program makes a system call",
+          "category": "os"
+        },
+        {
+          "id": "s049",
+          "english": "Library",
+          "chinese": "库/函数库",
+          "pronunciation": "/ˈlaɪbrɛri/",
+          "example": "Link against the system library",
+          "category": "development"
+        },
+        {
+          "id": "s050",
+          "english": "Dependency",
+          "chinese": "依赖",
+          "pronunciation": "/dɪˈpɛndənsi/",
+          "example": "Install missing dependencies",
+          "category": "development"
         }
       ]
     },

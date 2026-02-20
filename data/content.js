@@ -125,6 +125,286 @@ const computerEnglishData = {
           "pronunciation": "/ˈnɑːnoʊ / vɪm/",
           "example": "nano config.txt",
           "category": "editors"
+        },
+        {
+          "id": "t016",
+          "english": "find",
+          "chinese": "查找文件",
+          "pronunciation": "/faɪnd/",
+          "example": "find . -name '*.txt'",
+          "category": "search"
+        },
+        {
+          "id": "t017",
+          "english": "locate",
+          "chinese": "快速定位文件",
+          "pronunciation": "/ˈloʊkeɪt/",
+          "example": "locate filename",
+          "category": "search"
+        },
+        {
+          "id": "t018",
+          "english": "which",
+          "chinese": "查找命令位置",
+          "pronunciation": "/wɪtʃ/",
+          "example": "which python",
+          "category": "search"
+        },
+        {
+          "id": "t019",
+          "english": "whereis",
+          "chinese": "查找程序位置",
+          "pronunciation": "/ˈwɛərɪz/",
+          "example": "whereis java",
+          "category": "search"
+        },
+        {
+          "id": "t020",
+          "english": "top",
+          "chinese": "显示进程状态",
+          "pronunciation": "/tɒp/",
+          "example": "top -u username",
+          "category": "process"
+        },
+        {
+          "id": "t021",
+          "english": "ps (process status)",
+          "chinese": "查看进程",
+          "pronunciation": "/piː ɛs/",
+          "example": "ps aux | grep nginx",
+          "category": "process"
+        },
+        {
+          "id": "t022",
+          "english": "kill",
+          "chinese": "终止进程",
+          "pronunciation": "/kɪl/",
+          "example": "kill -9 PID",
+          "category": "process"
+        },
+        {
+          "id": "t023",
+          "english": "pkill",
+          "chinese": "按名称终止进程",
+          "pronunciation": "/piː kɪl/",
+          "example": "pkill -f process_name",
+          "category": "process"
+        },
+        {
+          "id": "t024",
+          "english": "tar",
+          "chinese": "归档工具",
+          "pronunciation": "/tɑːr/",
+          "example": "tar -czvf archive.tar.gz folder/",
+          "category": "compression"
+        },
+        {
+          "id": "t025",
+          "english": "gzip",
+          "chinese": "压缩文件",
+          "pronunciation": "/dʒiː zɪp/",
+          "example": "gzip file.txt",
+          "category": "compression"
+        },
+        {
+          "id": "t026",
+          "english": "zip / unzip",
+          "chinese": "ZIP压缩/解压",
+          "pronunciation": "/zɪp / ʌnˈzɪp/",
+          "example": "zip -r archive.zip folder/",
+          "category": "compression"
+        },
+        {
+          "id": "t027",
+          "english": "ssh (Secure Shell)",
+          "chinese": "安全远程登录",
+          "pronunciation": "/ɛs ɛs eɪtʃ/",
+          "example": "ssh user@hostname",
+          "category": "network"
+        },
+        {
+          "id": "t028",
+          "english": "scp (secure copy)",
+          "chinese": "安全复制文件",
+          "pronunciation": "/ɛs siː piː/",
+          "example": "scp file.txt user@host:/path/",
+          "category": "network"
+        },
+        {
+          "id": "t029",
+          "english": "wget",
+          "chinese": "下载文件",
+          "pronunciation": "/dʌbəljuː ɡɛt/",
+          "example": "wget https://example.com/file.zip",
+          "category": "network"
+        },
+        {
+          "id": "t030",
+          "english": "curl",
+          "chinese": "传输数据工具",
+          "pronunciation": "/kɜːrl/",
+          "example": "curl -O https://example.com/file",
+          "category": "network"
+        },
+        {
+          "id": "t031",
+          "english": "df (disk free)",
+          "chinese": "查看磁盘空间",
+          "pronunciation": "/diː ɛf/",
+          "example": "df -h",
+          "category": "disk"
+        },
+        {
+          "id": "t032",
+          "english": "du (disk usage)",
+          "chinese": "查看目录大小",
+          "pronunciation": "/diː juː/",
+          "example": "du -sh directory/",
+          "category": "disk"
+        },
+        {
+          "id": "t033",
+          "english": "free",
+          "chinese": "查看内存使用",
+          "pronunciation": "/friː/",
+          "example": "free -h",
+          "category": "system"
+        },
+        {
+          "id": "t034",
+          "english": "uptime",
+          "chinese": "查看系统运行时间",
+          "pronunciation": "/ˈʌptaɪm/",
+          "example": "uptime",
+          "category": "system"
+        },
+        {
+          "id": "t035",
+          "english": "head",
+          "chinese": "查看文件开头",
+          "pronunciation": "/hɛd/",
+          "example": "head -n 20 file.txt",
+          "category": "viewing"
+        },
+        {
+          "id": "t036",
+          "english": "tail",
+          "chinese": "查看文件末尾",
+          "pronunciation": "/teɪl/",
+          "example": "tail -f log.txt",
+          "category": "viewing"
+        },
+        {
+          "id": "t037",
+          "english": "less",
+          "chinese": "分页查看文件",
+          "pronunciation": "/lɛs/",
+          "example": "less largefile.txt",
+          "category": "viewing"
+        },
+        {
+          "id": "t038",
+          "english": "more",
+          "chinese": "分页查看（简化版）",
+          "pronunciation": "/mɔːr/",
+          "example": "more file.txt",
+          "category": "viewing"
+        },
+        {
+          "id": "t039",
+          "english": "wc (word count)",
+          "chinese": "统计行数/字数",
+          "pronunciation": "/dʌbəljuː siː/",
+          "example": "wc -l file.txt",
+          "category": "text-processing"
+        },
+        {
+          "id": "t040",
+          "english": "sort",
+          "chinese": "排序",
+          "pronunciation": "/sɔːrt/",
+          "example": "sort -n numbers.txt",
+          "category": "text-processing"
+        },
+        {
+          "id": "t041",
+          "english": "uniq",
+          "chinese": "去重",
+          "pronunciation": "/juːˈniːk/",
+          "example": "sort file.txt | uniq",
+          "category": "text-processing"
+        },
+        {
+          "id": "t042",
+          "english": "diff",
+          "chinese": "比较文件差异",
+          "pronunciation": "/dɪf/",
+          "example": "diff file1.txt file2.txt",
+          "category": "text-processing"
+        },
+        {
+          "id": "t043",
+          "english": "alias",
+          "chinese": "设置命令别名",
+          "pronunciation": "/ˈeɪliəs/",
+          "example": "alias ll='ls -la'",
+          "category": "shell"
+        },
+        {
+          "id": "t044",
+          "english": "export",
+          "chinese": "设置环境变量",
+          "pronunciation": "/ˈɛkspɔːrt/",
+          "example": "export PATH=$PATH:/new/path",
+          "category": "shell"
+        },
+        {
+          "id": "t045",
+          "english": "source",
+          "chinese": "执行脚本（当前shell）",
+          "pronunciation": "/sɔːrs/",
+          "example": "source ~/.bashrc",
+          "category": "shell"
+        },
+        {
+          "id": "t046",
+          "english": "man",
+          "chinese": "查看手册页",
+          "pronunciation": "/mæn/",
+          "example": "man ls",
+          "category": "documentation"
+        },
+        {
+          "id": "t047",
+          "english": "history",
+          "chinese": "查看命令历史",
+          "pronunciation": "/ˈhɪstəri/",
+          "example": "history | grep ssh",
+          "category": "shell"
+        },
+        {
+          "id": "t048",
+          "english": "clear",
+          "chinese": "清屏",
+          "pronunciation": "/klɪər/",
+          "example": "clear",
+          "category": "shell"
+        },
+        {
+          "id": "t049",
+          "english": "exit",
+          "chinese": "退出",
+          "pronunciation": "/ˈɛksɪt/",
+          "example": "exit",
+          "category": "shell"
+        },
+        {
+          "id": "t050",
+          "english": "whoami",
+          "chinese": "显示当前用户",
+          "pronunciation": "/huːˈɑːmiː/",
+          "example": "whoami",
+          "category": "system"
         }
       ]
     },
@@ -253,6 +533,286 @@ const computerEnglishData = {
           "pronunciation": "/ˈridˌmi/",
           "example": "See README.md for details",
           "category": "documentation"
+        },
+        {
+          "id": "g016",
+          "english": "git fetch",
+          "chinese": "获取远程更新",
+          "pronunciation": "/ɡɪt fɛtʃ/",
+          "example": "git fetch origin",
+          "category": "remote"
+        },
+        {
+          "id": "g017",
+          "english": "git diff",
+          "chinese": "查看差异",
+          "pronunciation": "/ɡɪt dɪf/",
+          "example": "git diff HEAD~1",
+          "category": "status"
+        },
+        {
+          "id": "g018",
+          "english": "git reset",
+          "chinese": "重置到指定版本",
+          "pronunciation": "/ɡɪt ˈrɛsɛt/",
+          "example": "git reset --hard HEAD~1",
+          "category": "history"
+        },
+        {
+          "id": "g019",
+          "english": "git revert",
+          "chinese": "撤销提交（创建新提交）",
+          "pronunciation": "/ɡɪt rɪˈvɜːrt/",
+          "example": "git revert HEAD",
+          "category": "history"
+        },
+        {
+          "id": "g020",
+          "english": "git cherry-pick",
+          "chinese": "拣选提交",
+          "pronunciation": "/ɡɪt ˈtʃɛri pɪk/",
+          "example": "git cherry-pick abc123",
+          "category": "advanced"
+        },
+        {
+          "id": "g021",
+          "english": "git tag",
+          "chinese": "标签管理",
+          "pronunciation": "/ɡɪt tæɡ/",
+          "example": "git tag -a v1.0 -m 'Version 1.0'",
+          "category": "versioning"
+        },
+        {
+          "id": "g022",
+          "english": "git submodule",
+          "chinese": "子模块",
+          "pronunciation": "/ɡɪt ˈsʌbˌmɒdjuːl/",
+          "example": "git submodule update --init",
+          "category": "advanced"
+        },
+        {
+          "id": "g023",
+          "english": "git bisect",
+          "chinese": "二分查找问题提交",
+          "pronunciation": "/ɡɪt ˈbaɪsɛkt/",
+          "example": "git bisect start",
+          "category": "debugging"
+        },
+        {
+          "id": "g024",
+          "english": "git blame",
+          "chinese": "查看行级提交信息",
+          "pronunciation": "/ɡɪt bleɪm/",
+          "example": "git blame filename",
+          "category": "debugging"
+        },
+        {
+          "id": "g025",
+          "english": "git reflog",
+          "chinese": "查看引用日志",
+          "pronunciation": "/ɡɪt ˈrɛflɒɡ/",
+          "example": "git reflog",
+          "category": "history"
+        },
+        {
+          "id": "g026",
+          "english": "git clean",
+          "chinese": "清理未跟踪文件",
+          "pronunciation": "/ɡɪt kliːn/",
+          "example": "git clean -fd",
+          "category": "maintenance"
+        },
+        {
+          "id": "g027",
+          "english": "git archive",
+          "chinese": "归档导出",
+          "pronunciation": "/ɡɪt ˈɑːrkaɪv/",
+          "example": "git archive --format=tar HEAD",
+          "category": "export"
+        },
+        {
+          "id": "g028",
+          "english": "git notes",
+          "chinese": "为提交添加注释",
+          "pronunciation": "/ɡɪt noʊts/",
+          "example": "git notes add -m 'Note' HEAD",
+          "category": "advanced"
+        },
+        {
+          "id": "g029",
+          "english": "git worktree",
+          "chinese": "多工作树",
+          "pronunciation": "/ɡɪt ˈwɜːrktriː/",
+          "example": "git worktree add ../branch folder",
+          "category": "advanced"
+        },
+        {
+          "id": "g030",
+          "english": "git config",
+          "chinese": "配置Git",
+          "pronunciation": "/ɡɪt ˈkɒnfɪɡ/",
+          "example": "git config --global user.name 'Name'",
+          "category": "configuration"
+        },
+        {
+          "id": "g031",
+          "english": "gitignore",
+          "chinese": "忽略文件配置",
+          "pronunciation": "/ɡɪt ɪɡˈnɔːr/",
+          "example": "Add patterns to .gitignore",
+          "category": "configuration"
+        },
+        {
+          "id": "g032",
+          "english": "git hooks",
+          "chinese": "Git钩子",
+          "pronunciation": "/ɡɪt hʊks/",
+          "example": "Configure pre-commit hook",
+          "category": "automation"
+        },
+        {
+          "id": "g033",
+          "english": "git describe",
+          "chinese": "描述版本",
+          "pronunciation": "/ɡɪt dɪˈskraɪb/",
+          "example": "git describe --tags",
+          "category": "versioning"
+        },
+        {
+          "id": "g034",
+          "english": "git shortlog",
+          "chinese": "提交统计摘要",
+          "pronunciation": "/ɡɪt ˈʃɔːrtlɒɡ/",
+          "example": "git shortlog -sn",
+          "category": "statistics"
+        },
+        {
+          "id": "g035",
+          "english": "git show",
+          "chinese": "显示提交详情",
+          "pronunciation": "/ɡɪt ʃoʊ/",
+          "example": "git show HEAD",
+          "category": "history"
+        },
+        {
+          "id": "g036",
+          "english": "git rm",
+          "chinese": "删除文件并暂存",
+          "pronunciation": "/ɡɪt ɑːr ɛm/",
+          "example": "git rm filename",
+          "category": "staging"
+        },
+        {
+          "id": "g037",
+          "english": "git mv",
+          "chinese": "移动/重命名文件",
+          "pronunciation": "/ɡɪt ɛm viː/",
+          "example": "git mv old.txt new.txt",
+          "category": "staging"
+        },
+        {
+          "id": "g038",
+          "english": "git am",
+          "chinese": "应用补丁",
+          "pronunciation": "/ɡɪt eɪ ɛm/",
+          "example": "git am < patch.txt",
+          "category": "patch"
+        },
+        {
+          "id": "g039",
+          "english": "git format-patch",
+          "chinese": "生成补丁",
+          "pronunciation": "/ɡɪt ˈfɔːrmæt pætʃ/",
+          "example": "git format-patch HEAD~3",
+          "category": "patch"
+        },
+        {
+          "id": "g040",
+          "english": "git apply",
+          "chinese": "应用补丁",
+          "pronunciation": "/ɡɪt əˈplaɪ/",
+          "example": "git apply patch.diff",
+          "category": "patch"
+        },
+        {
+          "id": "g041",
+          "english": "git bundle",
+          "chinese": "打包仓库",
+          "pronunciation": "/ɡɪt ˈbʌndl/",
+          "example": "git bundle create repo.bundle HEAD",
+          "category": "export"
+        },
+        {
+          "id": "g042",
+          "english": "git sparse-checkout",
+          "chinese": "稀疏检出",
+          "pronunciation": "/ɡɪt spɑːrs ˈtʃɛkaʊt/",
+          "example": "git sparse-checkout init",
+          "category": "advanced"
+        },
+        {
+          "id": "g043",
+          "english": "git maintenance",
+          "chinese": "仓库维护",
+          "pronunciation": "/ɡɪt ˈmeɪntənəns/",
+          "example": "git maintenance start",
+          "category": "maintenance"
+        },
+        {
+          "id": "g044",
+          "english": "git restore",
+          "chinese": "恢复文件",
+          "pronunciation": "/ɡɪt rɪˈstɔːr/",
+          "example": "git restore filename",
+          "category": "workflow"
+        },
+        {
+          "id": "g045",
+          "english": "git switch",
+          "chinese": "切换分支（新命令）",
+          "pronunciation": "/ɡɪt swɪtʃ/",
+          "example": "git switch main",
+          "category": "branching"
+        },
+        {
+          "id": "g046",
+          "english": "Fast-forward",
+          "chinese": "快进合并",
+          "pronunciation": "/fɑːst ˈfɔːrwərd/",
+          "example": "Fast-forward merge",
+          "category": "branching"
+        },
+        {
+          "id": "g047",
+          "english": "HEAD",
+          "chinese": "当前分支最新提交",
+          "pronunciation": "/hɛd/",
+          "example": "Reset to HEAD",
+          "category": "concepts"
+        },
+        {
+          "id": "g048",
+          "english": "Detached HEAD",
+          "chinese": "分离头指针",
+          "pronunciation": "/dɪˈtætʃt hɛd/",
+          "example": "You are in detached HEAD state",
+          "category": "concepts"
+        },
+        {
+          "id": "g049",
+          "english": "Index / Staging area",
+          "chinese": "暂存区/索引",
+          "pronunciation": "/ˈɪndɛks / ˈsteɪdʒɪŋ ˈɛəriə/",
+          "example": "Add files to the index",
+          "category": "concepts"
+        },
+        {
+          "id": "g050",
+          "english": "origin",
+          "chinese": "默认远程仓库名",
+          "pronunciation": "/ˈɒrɪdʒɪn/",
+          "example": "git push origin main",
+          "category": "concepts"
         }
       ]
     },
@@ -381,6 +941,286 @@ const computerEnglishData = {
           "pronunciation": "/dɪsk fʊl/",
           "example": "Error writing file: Disk full",
           "category": "system"
+        },
+        {
+          "id": "e016",
+          "english": "Bad gateway",
+          "chinese": "网关错误",
+          "pronunciation": "/bæd ˈɡeɪtweɪ/",
+          "example": "502 Bad Gateway",
+          "category": "http"
+        },
+        {
+          "id": "e017",
+          "english": "Service unavailable",
+          "chinese": "服务不可用",
+          "pronunciation": "/ˈsɜːrvɪs ˌʌnəˈveɪləbl/",
+          "example": "503 Service Unavailable",
+          "category": "http"
+        },
+        {
+          "id": "e018",
+          "english": "Gateway timeout",
+          "chinese": "网关超时",
+          "pronunciation": "/ˈɡeɪtweɪ ˈtaɪmaʊt/",
+          "example": "504 Gateway Timeout",
+          "category": "http"
+        },
+        {
+          "id": "e019",
+          "english": "Internal server error",
+          "chinese": "服务器内部错误",
+          "pronunciation": "/ɪnˈtɜːrnl ˈsɜːrvər ˈɛrər/",
+          "example": "500 Internal Server Error",
+          "category": "http"
+        },
+        {
+          "id": "e020",
+          "english": "Not implemented",
+          "chinese": "未实现",
+          "pronunciation": "/nɒt ˈɪmplɪmɛntɪd/",
+          "example": "501 Not Implemented",
+          "category": "http"
+        },
+        {
+          "id": "e021",
+          "english": "Method not allowed",
+          "chinese": "方法不被允许",
+          "pronunciation": "/ˈmɛθəd nɒt əˈlaʊd/",
+          "example": "405 Method Not Allowed",
+          "category": "http"
+        },
+        {
+          "id": "e022",
+          "english": "Not acceptable",
+          "chinese": "不接受",
+          "pronunciation": "/nɒt ækˈsɛptəbl/",
+          "example": "406 Not Acceptable",
+          "category": "http"
+        },
+        {
+          "id": "e023",
+          "english": "Request entity too large",
+          "chinese": "请求实体过大",
+          "pronunciation": "/rɪˈkwɛst ˈɛntɪti tuː lɑːrdʒ/",
+          "example": "413 Request Entity Too Large",
+          "category": "http"
+        },
+        {
+          "id": "e024",
+          "english": "Too many requests",
+          "chinese": "请求过多",
+          "pronunciation": "/tuː ˈmɛni rɪˈkwɛsts/",
+          "example": "429 Too Many Requests",
+          "category": "http"
+        },
+        {
+          "id": "e025",
+          "english": "SSL certificate error",
+          "chinese": "SSL证书错误",
+          "pronunciation": "/ɛs ɛs ɛl sərˈtɪfɪkət ˈɛrər/",
+          "example": "SSL certificate verification failed",
+          "category": "security"
+        },
+        {
+          "id": "e026",
+          "english": "Host not found",
+          "chinese": "主机未找到",
+          "pronunciation": "/hoʊst nɒt faʊnd/",
+          "example": "Host not found: unknown host",
+          "category": "network"
+        },
+        {
+          "id": "e027",
+          "english": "Network unreachable",
+          "chinese": "网络不可达",
+          "pronunciation": "/ˈnɛtwɜːrk ʌnˈriːtʃəbl/",
+          "example": "Network is unreachable",
+          "category": "network"
+        },
+        {
+          "id": "e028",
+          "english": "Broken pipe",
+          "chinese": "管道破裂",
+          "pronunciation": "/ˈbroʊkən paɪp/",
+          "example": "write error: Broken pipe",
+          "category": "io"
+        },
+        {
+          "id": "e029",
+          "english": "Input/output error",
+          "chinese": "输入输出错误",
+          "pronunciation": "/ˈɪnpʊt ˈaʊtpʊt ˈɛrər/",
+          "example": "I/O error reading file",
+          "category": "io"
+        },
+        {
+          "id": "e030",
+          "english": "Device or resource busy",
+          "chinese": "设备或资源忙",
+          "pronunciation": "/dɪˈvaɪs ɔːr ˈriːsɔːrs ˈbɪzi/",
+          "example": "Device or resource busy",
+          "category": "system"
+        },
+        {
+          "id": "e031",
+          "english": "Read-only file system",
+          "chinese": "只读文件系统",
+          "pronunciation": "/riːd ˈoʊnli faɪl ˈsɪstəm/",
+          "example": "Read-only file system",
+          "category": "system"
+        },
+        {
+          "id": "e032",
+          "english": "Too many open files",
+          "chinese": "打开文件过多",
+          "pronunciation": "/tuː ˈmɛni ˈoʊpən faɪlz/",
+          "example": "Too many open files",
+          "category": "system"
+        },
+        {
+          "id": "e033",
+          "english": "Invalid argument",
+          "chinese": "无效参数",
+          "pronunciation": "/ɪnˈvælɪd ˈɑːrɡjumənt/",
+          "example": "Invalid argument supplied",
+          "category": "compilation"
+        },
+        {
+          "id": "e034",
+          "english": "Floating point exception",
+          "chinese": "浮点运算异常",
+          "pronunciation": "/ˈfloʊtɪŋ pɔɪnt ɪkˈsɛpʃən/",
+          "example": "Floating point exception (core dumped)",
+          "category": "runtime"
+        },
+        {
+          "id": "e035",
+          "english": "Bus error",
+          "chinese": "总线错误",
+          "pronunciation": "/bʌs ˈɛrər/",
+          "example": "Bus error (core dumped)",
+          "category": "runtime"
+        },
+        {
+          "id": "e036",
+          "english": "Illegal instruction",
+          "chinese": "非法指令",
+          "pronunciation": "/ɪˈliːɡəl ɪnˈstrʌkʃən/",
+          "example": "Illegal instruction (core dumped)",
+          "category": "runtime"
+        },
+        {
+          "id": "e037",
+          "english": "Core dumped",
+          "chinese": "核心转储",
+          "pronunciation": "/kɔːr dʌmpt/",
+          "example": "Segmentation fault (core dumped)",
+          "category": "runtime"
+        },
+        {
+          "id": "e038",
+          "english": "Cannot allocate memory",
+          "chinese": "无法分配内存",
+          "pronunciation": "/kæˈnɒt ˈæləkeɪt ˈmɛməri/",
+          "example": "Cannot allocate memory",
+          "category": "runtime"
+        },
+        {
+          "id": "e039",
+          "english": "Module not found",
+          "chinese": "模块未找到",
+          "pronunciation": "/ˈmɒdjuːl nɒt faʊnd/",
+          "example": "Error: Module not found: './module'",
+          "category": "compilation"
+        },
+        {
+          "id": "e040",
+          "english": "Import error",
+          "chinese": "导入错误",
+          "pronunciation": "/ˈɪmpɔːrt ˈɛrər/",
+          "example": "ImportError: No module named 'xxx'",
+          "category": "compilation"
+        },
+        {
+          "id": "e041",
+          "english": "Type error",
+          "chinese": "类型错误",
+          "pronunciation": "/taɪp ˈɛrər/",
+          "example": "TypeError: Cannot read property of undefined",
+          "category": "compilation"
+        },
+        {
+          "id": "e042",
+          "english": "Reference error",
+          "chinese": "引用错误",
+          "pronunciation": "/ˈrɛfrəns ˈɛrər/",
+          "example": "ReferenceError: x is not defined",
+          "category": "compilation"
+        },
+        {
+          "id": "e043",
+          "english": "Range error",
+          "chinese": "范围错误",
+          "pronunciation": "/reɪndʒ ˈɛrər/",
+          "example": "RangeError: Maximum call stack exceeded",
+          "category": "runtime"
+        },
+        {
+          "id": "e044",
+          "english": "Unhandled exception",
+          "chinese": "未处理的异常",
+          "pronunciation": "/ʌnˈhændld ɪkˈsɛpʃən/",
+          "example": "Unhandled exception occurred",
+          "category": "runtime"
+        },
+        {
+          "id": "e045",
+          "english": "Assertion failed",
+          "chinese": "断言失败",
+          "pronunciation": "/əˈsɜːrʃən feɪld/",
+          "example": "Assertion failed: condition is false",
+          "category": "testing"
+        },
+        {
+          "id": "e046",
+          "english": "Dependency not found",
+          "chinese": "依赖未找到",
+          "pronunciation": "/dɪˈpɛndənsi nɒt faʊnd/",
+          "example": "Dependency not found: package@version",
+          "category": "compilation"
+        },
+        {
+          "id": "e047",
+          "english": "Version mismatch",
+          "chinese": "版本不匹配",
+          "pronunciation": "/ˈvɜːrʒən mɪsˈmætʃ/",
+          "example": "Version mismatch: expected v2, got v1",
+          "category": "compilation"
+        },
+        {
+          "id": "e048",
+          "english": "Circular dependency",
+          "chinese": "循环依赖",
+          "pronunciation": "/ˈsɜːrkjələr dɪˈpɛndənsi/",
+          "example": "Circular dependency detected",
+          "category": "compilation"
+        },
+        {
+          "id": "e049",
+          "english": "Deadlock",
+          "chinese": "死锁",
+          "pronunciation": "/ˈdɛdlɒk/",
+          "example": "Deadlock detected in thread pool",
+          "category": "runtime"
+        },
+        {
+          "id": "e050",
+          "english": "Race condition",
+          "chinese": "竞态条件",
+          "pronunciation": "/reɪs kənˈdɪʃən/",
+          "example": "Race condition in concurrent access",
+          "category": "runtime"
         }
       ]
     },
@@ -509,6 +1349,286 @@ const computerEnglishData = {
           "pronunciation": "/diːˈbʌɡ/",
           "example": "Debug the application to find the issue",
           "category": "development"
+        },
+        {
+          "id": "p016",
+          "english": "Compile",
+          "chinese": "编译",
+          "pronunciation": "/kəmˈpaɪl/",
+          "example": "Compile the source code",
+          "category": "development"
+        },
+        {
+          "id": "p017",
+          "english": "Runtime",
+          "chinese": "运行时",
+          "pronunciation": "/ˈrʌntaɪm/",
+          "example": "Error occurred at runtime",
+          "category": "basics"
+        },
+        {
+          "id": "p018",
+          "english": "Syntax",
+          "chinese": "语法",
+          "pronunciation": "/ˈsɪntæks/",
+          "example": "Check the syntax of the code",
+          "category": "basics"
+        },
+        {
+          "id": "p019",
+          "english": "Loop",
+          "chinese": "循环",
+          "pronunciation": "/luːp/",
+          "example": "Use a for loop to iterate",
+          "category": "basics"
+        },
+        {
+          "id": "p020",
+          "english": "Condition",
+          "chinese": "条件",
+          "pronunciation": "/kənˈdɪʃən/",
+          "example": "Check the condition first",
+          "category": "basics"
+        },
+        {
+          "id": "p021",
+          "english": "Exception",
+          "chinese": "异常",
+          "pronunciation": "/ɪkˈsɛpʃən/",
+          "example": "Throw an exception",
+          "category": "basics"
+        },
+        {
+          "id": "p022",
+          "english": "Iterate",
+          "chinese": "迭代",
+          "pronunciation": "/ˈɪtəreɪt/",
+          "example": "Iterate over the collection",
+          "category": "basics"
+        },
+        {
+          "id": "p023",
+          "english": "List",
+          "chinese": "列表",
+          "pronunciation": "/lɪst/",
+          "example": "Create a list of items",
+          "category": "data-structures"
+        },
+        {
+          "id": "p024",
+          "english": "Map",
+          "chinese": "映射/字典",
+          "pronunciation": "/mæp/",
+          "example": "Use a map for key-value pairs",
+          "category": "data-structures"
+        },
+        {
+          "id": "p025",
+          "english": "Set",
+          "chinese": "集合",
+          "pronunciation": "/sɛt/",
+          "example": "Store unique items in a set",
+          "category": "data-structures"
+        },
+        {
+          "id": "p026",
+          "english": "Tuple",
+          "chinese": "元组",
+          "pronunciation": "/ˈtʌpəl/",
+          "example": "Return multiple values as a tuple",
+          "category": "data-structures"
+        },
+        {
+          "id": "p027",
+          "english": "Stack Overflow",
+          "chinese": "栈溢出",
+          "pronunciation": "/stæk ˈoʊvərˌfloʊ/",
+          "example": "Stack overflow in recursion",
+          "category": "basics"
+        },
+        {
+          "id": "p028",
+          "english": "Heap",
+          "chinese": "堆",
+          "pronunciation": "/hiːp/",
+          "example": "Objects are stored on the heap",
+          "category": "memory"
+        },
+        {
+          "id": "p029",
+          "english": "Pointer",
+          "chinese": "指针",
+          "pronunciation": "/ˈpɔɪntər/",
+          "example": "Dereference the pointer",
+          "category": "memory"
+        },
+        {
+          "id": "p030",
+          "english": "Reference",
+          "chinese": "引用",
+          "pronunciation": "/ˈrɛfrəns/",
+          "example": "Pass by reference",
+          "category": "memory"
+        },
+        {
+          "id": "p031",
+          "english": "Value",
+          "chinese": "值",
+          "pronunciation": "/ˈvæljuː/",
+          "example": "Pass by value",
+          "category": "basics"
+        },
+        {
+          "id": "p032",
+          "english": "Scope",
+          "chinese": "作用域",
+          "pronunciation": "/skoʊp/",
+          "example": "Variable scope is limited",
+          "category": "basics"
+        },
+        {
+          "id": "p033",
+          "english": "Namespace",
+          "chinese": "命名空间",
+          "pronunciation": "/ˈneɪmspɛɪs/",
+          "example": "Organize code in namespaces",
+          "category": "basics"
+        },
+        {
+          "id": "p034",
+          "english": "Module",
+          "chinese": "模块",
+          "pronunciation": "/ˈmɒdjuːl/",
+          "example": "Import the module",
+          "category": "basics"
+        },
+        {
+          "id": "p035",
+          "english": "Import",
+          "chinese": "导入",
+          "pronunciation": "/ˈɪmpɔːrt/",
+          "example": "Import the library",
+          "category": "basics"
+        },
+        {
+          "id": "p036",
+          "english": "Export",
+          "chinese": "导出",
+          "pronunciation": "/ˈɛkspɔːrt/",
+          "example": "Export the function",
+          "category": "basics"
+        },
+        {
+          "id": "p037",
+          "english": "Generic",
+          "chinese": "泛型",
+          "pronunciation": "/dʒəˈnɛrɪk/",
+          "example": "Define a generic type",
+          "category": "oop"
+        },
+        {
+          "id": "p038",
+          "english": "Enum",
+          "chinese": "枚举",
+          "pronunciation": "/ˈiːnʌm/",
+          "example": "Define an enum type",
+          "category": "oop"
+        },
+        {
+          "id": "p039",
+          "english": "Struct",
+          "chinese": "结构体",
+          "pronunciation": "/strʌkt/",
+          "example": "Define a struct",
+          "category": "oop"
+        },
+        {
+          "id": "p040",
+          "english": "Polymorphism",
+          "chinese": "多态",
+          "pronunciation": "/ˌpɒliˈmɔːrfɪzəm/",
+          "example": "Achieve polymorphism with inheritance",
+          "category": "oop"
+        },
+        {
+          "id": "p041",
+          "english": "Encapsulation",
+          "chinese": "封装",
+          "pronunciation": "/ɪnˌkæpsjuˈleɪʃən/",
+          "example": "Use encapsulation to hide details",
+          "category": "oop"
+        },
+        {
+          "id": "p042",
+          "english": "Abstraction",
+          "chinese": "抽象",
+          "pronunciation": "/æbˈstrækʃən/",
+          "example": "Apply abstraction to simplify",
+          "category": "oop"
+        },
+        {
+          "id": "p043",
+          "english": "Singleton",
+          "chinese": "单例模式",
+          "pronunciation": "/ˈsɪŋɡltən/",
+          "example": "Implement singleton pattern",
+          "category": "patterns"
+        },
+        {
+          "id": "p044",
+          "english": "Factory",
+          "chinese": "工厂模式",
+          "pronunciation": "/ˈfæktəri/",
+          "example": "Use factory pattern to create objects",
+          "category": "patterns"
+        },
+        {
+          "id": "p045",
+          "english": "Observer",
+          "chinese": "观察者模式",
+          "pronunciation": "/əbˈzɜːrvər/",
+          "example": "Implement observer pattern",
+          "category": "patterns"
+        },
+        {
+          "id": "p046",
+          "english": "Decorator",
+          "chinese": "装饰器模式",
+          "pronunciation": "/ˈdɛkəreɪtər/",
+          "example": "Apply decorator pattern",
+          "category": "patterns"
+        },
+        {
+          "id": "p047",
+          "english": "Iterator",
+          "chinese": "迭代器",
+          "pronunciation": "/ˈɪtəreɪtər/",
+          "example": "Use iterator to traverse",
+          "category": "patterns"
+        },
+        {
+          "id": "p048",
+          "english": "Stream",
+          "chinese": "流",
+          "pronunciation": "/striːm/",
+          "example": "Process data as a stream",
+          "category": "io"
+        },
+        {
+          "id": "p049",
+          "english": "Buffer",
+          "chinese": "缓冲区",
+          "pronunciation": "/ˈbʌfər/",
+          "example": "Write to the buffer",
+          "category": "io"
+        },
+        {
+          "id": "p050",
+          "english": "Semaphore",
+          "chinese": "信号量",
+          "pronunciation": "/ˈsɛməfɔːr/",
+          "example": "Use semaphore for synchronization",
+          "category": "concurrency"
         }
       ]
     },

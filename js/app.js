@@ -3,7 +3,8 @@
     FAVORITES: 'computer-english-favorites',
     LEARNED: 'computer-english-learned',
     LAST_VISIT: 'computer-english-last-visit',
-    STREAK: 'computer-english-streak'
+    STREAK: 'computer-english-streak',
+    THEME: 'computer-english-theme'
   };
 
   class ComputerEnglishApp {
@@ -23,6 +24,7 @@
 
     init() {
       this.updateStreak();
+      this.initTheme();
       this.initNavigation();
       this.initLearnView();
       this.initBrowseView();
@@ -93,6 +95,23 @@
       localStorage.setItem(STORAGE_KEYS.LAST_VISIT, today);
       localStorage.setItem(STORAGE_KEYS.STREAK, streak.toString());
       this.streak = streak;
+    }
+
+    initTheme() {
+      const savedTheme = localStorage.getItem(STORAGE_KEYS.THEME) || 'light';
+      this.setTheme(savedTheme);
+      
+      document.getElementById('theme-toggle').addEventListener('click', () => {
+        const currentTheme = document.documentElement.getAttribute('data-theme');
+        const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+        this.setTheme(newTheme);
+      });
+    }
+
+    setTheme(theme) {
+      document.documentElement.setAttribute('data-theme', theme);
+      localStorage.setItem(STORAGE_KEYS.THEME, theme);
+      document.getElementById('theme-icon').textContent = theme === 'dark' ? '☀️' : '🌙';
     }
 
     shuffleItems() {
@@ -580,7 +599,7 @@
     }
     
     .modal-content {
-      background: white;
+      background: var(--surface);
       border-radius: 1rem;
       padding: 2rem;
       max-width: 500px;
@@ -597,16 +616,17 @@
       border: none;
       font-size: 1.5rem;
       cursor: pointer;
-      color: #64748b;
+      color: var(--text-secondary);
     }
     
     .modal-content h2 {
       font-size: 2rem;
       margin: 1rem 0 0.5rem;
+      color: var(--text-primary);
     }
     
     .modal-content .pronunciation {
-      color: #64748b;
+      color: var(--text-secondary);
       font-style: italic;
       margin-bottom: 1rem;
     }
@@ -615,24 +635,25 @@
       font-size: 1.5rem;
       font-weight: 600;
       margin-bottom: 1rem;
+      color: var(--text-primary);
     }
     
     .modal-content .example {
-      background: #f8fafc;
+      background: var(--background);
       padding: 1rem;
       border-radius: 0.5rem;
       margin-bottom: 1rem;
     }
     
     .modal-content .example code {
-      color: #ec4899;
+      color: var(--secondary);
       font-family: monospace;
     }
     
     .speak-btn-large {
       width: 100%;
       padding: 1rem;
-      background: #6366f1;
+      background: var(--primary);
       color: white;
       border: none;
       border-radius: 0.5rem;
@@ -645,7 +666,7 @@
     }
     
     .speak-btn-large:hover {
-      background: #4f46e5;
+      background: var(--primary-dark);
     }
     
     @keyframes slideUp {

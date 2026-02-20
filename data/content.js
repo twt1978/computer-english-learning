@@ -1757,6 +1757,286 @@ const computerEnglishData = {
           "pronunciation": "/dɪˈplɔɪ/",
           "example": "Deploy the application to production",
           "category": "devops"
+        },
+        {
+          "id": "w016",
+          "english": "DOM",
+          "chinese": "文档对象模型",
+          "pronunciation": "/dɒm/",
+          "example": "Manipulate the DOM with JavaScript",
+          "category": "frontend"
+        },
+        {
+          "id": "w017",
+          "english": "CSS",
+          "chinese": "层叠样式表",
+          "pronunciation": "/siː ɛs ɛs/",
+          "example": "Style the page with CSS",
+          "category": "frontend"
+        },
+        {
+          "id": "w018",
+          "english": "HTML",
+          "chinese": "超文本标记语言",
+          "pronunciation": "/eɪtʃ tiː ɛm ɛl/",
+          "example": "Structure content with HTML",
+          "category": "frontend"
+        },
+        {
+          "id": "w019",
+          "english": "AJAX",
+          "chinese": "异步JavaScript和XML",
+          "pronunciation": "/ˈeɪdʒæks/",
+          "example": "Fetch data using AJAX",
+          "category": "frontend"
+        },
+        {
+          "id": "w020",
+          "english": "SPA",
+          "chinese": "单页应用",
+          "pronunciation": "/ɛs piː eɪ/",
+          "example": "Build a SPA with React",
+          "category": "architecture"
+        },
+        {
+          "id": "w021",
+          "english": "SSR",
+          "chinese": "服务端渲染",
+          "pronunciation": "/ɛs ɛs ɑːr/",
+          "example": "Use SSR for better SEO",
+          "category": "architecture"
+        },
+        {
+          "id": "w022",
+          "english": "CSR",
+          "chinese": "客户端渲染",
+          "pronunciation": "/siː ɛs ɑːr/",
+          "example": "CSR provides smooth interactions",
+          "category": "architecture"
+        },
+        {
+          "id": "w023",
+          "english": "SEO",
+          "chinese": "搜索引擎优化",
+          "pronunciation": "/ˌɛs iː ˈoʊ/",
+          "example": "Improve SEO with meta tags",
+          "category": "marketing"
+        },
+        {
+          "id": "w024",
+          "english": "Responsive",
+          "chinese": "响应式",
+          "pronunciation": "/rɪˈspɒnsɪv/",
+          "example": "Make the design responsive",
+          "category": "design"
+        },
+        {
+          "id": "w025",
+          "english": "Mobile-first",
+          "chinese": "移动优先",
+          "pronunciation": "/ˈmoʊbaɪl fɜːrst/",
+          "example": "Adopt a mobile-first approach",
+          "category": "design"
+        },
+        {
+          "id": "w026",
+          "english": "Viewport",
+          "chinese": "视口",
+          "pronunciation": "/ˈvjuːpɔːrt/",
+          "example": "Set the viewport for mobile",
+          "category": "frontend"
+        },
+        {
+          "id": "w027",
+          "english": "Cookie",
+          "chinese": "Cookie",
+          "pronunciation": "/ˈkʊki/",
+          "example": "Store session in a cookie",
+          "category": "storage"
+        },
+        {
+          "id": "w028",
+          "english": "LocalStorage",
+          "chinese": "本地存储",
+          "pronunciation": "/ˈloʊkl ˈstɔːrɪdʒ/",
+          "example": "Save preferences to LocalStorage",
+          "category": "storage"
+        },
+        {
+          "id": "w029",
+          "english": "SessionStorage",
+          "chinese": "会话存储",
+          "pronunciation": "/ˈsɛʃən ˈstɔːrɪdʒ/",
+          "example": "Use SessionStorage for temp data",
+          "category": "storage"
+        },
+        {
+          "id": "w030",
+          "english": "GraphQL",
+          "chinese": "GraphQL查询语言",
+          "pronunciation": "/ɡræf kjuː ɛl/",
+          "example": "Query data with GraphQL",
+          "category": "api"
+        },
+        {
+          "id": "w031",
+          "english": "Webhook",
+          "chinese": "网络钩子",
+          "pronunciation": "/ˈwɛbhʊk/",
+          "example": "Configure a webhook for events",
+          "category": "api"
+        },
+        {
+          "id": "w032",
+          "english": "OAuth",
+          "chinese": "开放授权",
+          "pronunciation": "/oʊ ˈɔːθ/",
+          "example": "Authenticate with OAuth 2.0",
+          "category": "security"
+        },
+        {
+          "id": "w033",
+          "english": "JWT",
+          "chinese": "JSON网络令牌",
+          "pronunciation": "/dʒɒt/",
+          "example": "Verify the JWT token",
+          "category": "security"
+        },
+        {
+          "id": "w034",
+          "english": "SSL",
+          "chinese": "安全套接层",
+          "pronunciation": "/ɛs ɛs ɛl/",
+          "example": "Enable SSL for HTTPS",
+          "category": "security"
+        },
+        {
+          "id": "w035",
+          "english": "Load Balancing",
+          "chinese": "负载均衡",
+          "pronunciation": "/loʊd ˈbælənsɪŋ/",
+          "example": "Configure load balancing",
+          "category": "infrastructure"
+        },
+        {
+          "id": "w036",
+          "english": "Reverse Proxy",
+          "chinese": "反向代理",
+          "pronunciation": "/rɪˈvɜːrs ˈprɒksi/",
+          "example": "Set up a reverse proxy",
+          "category": "infrastructure"
+        },
+        {
+          "id": "w037",
+          "english": "Containerization",
+          "chinese": "容器化",
+          "pronunciation": "/kənˌteɪnəraɪˈzeɪʃən/",
+          "example": "Use containerization with Docker",
+          "category": "devops"
+        },
+        {
+          "id": "w038",
+          "english": "Orchestration",
+          "chinese": "编排",
+          "pronunciation": "/ˌɔːrkɪˈstreɪʃən/",
+          "example": "Kubernetes handles orchestration",
+          "category": "devops"
+        },
+        {
+          "id": "w039",
+          "english": "Blue-green",
+          "chinese": "蓝绿部署",
+          "pronunciation": "/bluː ɡriːn/",
+          "example": "Use blue-green deployment",
+          "category": "devops"
+        },
+        {
+          "id": "w040",
+          "english": "Canary",
+          "chinese": "金丝雀发布",
+          "pronunciation": "/kəˈnɛəri/",
+          "example": "Deploy with canary release",
+          "category": "devops"
+        },
+        {
+          "id": "w041",
+          "english": "Feature Flag",
+          "chinese": "功能开关",
+          "pronunciation": "/ˈfiːtʃər flæɡ/",
+          "example": "Use feature flags for rollout",
+          "category": "devops"
+        },
+        {
+          "id": "w042",
+          "english": "A/B Testing",
+          "chinese": "A/B测试",
+          "pronunciation": "/eɪ biː ˈtɛstɪŋ/",
+          "example": "Run A/B tests on features",
+          "category": "analytics"
+        },
+        {
+          "id": "w043",
+          "english": "Analytics",
+          "chinese": "分析",
+          "pronunciation": "/ˌænəˈlɪtɪks/",
+          "example": "Track user analytics",
+          "category": "analytics"
+        },
+        {
+          "id": "w044",
+          "english": "Metric",
+          "chinese": "指标",
+          "pronunciation": "/ˈmɛtrɪk/",
+          "example": "Monitor performance metrics",
+          "category": "analytics"
+        },
+        {
+          "id": "w045",
+          "english": "Uptime",
+          "chinese": "正常运行时间",
+          "pronunciation": "/ˈʌptaɪm/",
+          "example": "Ensure 99.9% uptime",
+          "category": "monitoring"
+        },
+        {
+          "id": "w046",
+          "english": "Downtime",
+          "chinese": "停机时间",
+          "pronunciation": "/ˈdaʊntaɪm/",
+          "example": "Minimize downtime during deploy",
+          "category": "monitoring"
+        },
+        {
+          "id": "w047",
+          "english": "Latency",
+          "chinese": "延迟",
+          "pronunciation": "/ˈleɪtənsi/",
+          "example": "Reduce API latency",
+          "category": "performance"
+        },
+        {
+          "id": "w048",
+          "english": "Throughput",
+          "chinese": "吞吐量",
+          "pronunciation": "/ˈθruːpʊt/",
+          "example": "Measure request throughput",
+          "category": "performance"
+        },
+        {
+          "id": "w049",
+          "english": "Scalability",
+          "chinese": "可扩展性",
+          "pronunciation": "/ˌskeɪləˈbɪlɪti/",
+          "example": "Design for scalability",
+          "category": "architecture"
+        },
+        {
+          "id": "w050",
+          "english": "Availability",
+          "chinese": "可用性",
+          "pronunciation": "/əˌveɪləˈbɪlɪti/",
+          "example": "Ensure high availability",
+          "category": "architecture"
         }
       ]
     },
@@ -2293,6 +2573,286 @@ const computerEnglishData = {
           "pronunciation": "/ˈsænɪti tʃɛk/",
           "example": "// Sanity check: validate input",
           "category": "notes"
+        },
+        {
+          "id": "c016",
+          "english": "NOTE",
+          "chinese": "注意",
+          "pronunciation": "/noʊt/",
+          "example": "// NOTE: This is important",
+          "category": "markers"
+        },
+        {
+          "id": "c017",
+          "english": "WARNING",
+          "chinese": "警告",
+          "pronunciation": "/ˈwɔːrnɪŋ/",
+          "example": "// WARNING: Do not modify",
+          "category": "markers"
+        },
+        {
+          "id": "c018",
+          "english": "IMPORTANT",
+          "chinese": "重要",
+          "pronunciation": "/ɪmˈpɔːrtnt/",
+          "example": "// IMPORTANT: Read this first",
+          "category": "markers"
+        },
+        {
+          "id": "c019",
+          "english": "BUG",
+          "chinese": "缺陷",
+          "pronunciation": "/bʌɡ/",
+          "example": "// BUG: Known issue with Safari",
+          "category": "markers"
+        },
+        {
+          "id": "c020",
+          "english": "OPTIMIZE",
+          "chinese": "优化",
+          "pronunciation": "/ˈɒptɪmaɪz/",
+          "example": "// OPTIMIZE: Slow performance here",
+          "category": "markers"
+        },
+        {
+          "id": "c021",
+          "english": "REFACTOR",
+          "chinese": "重构",
+          "pronunciation": "/riːˈfæktər/",
+          "example": "// REFACTOR: Clean up this mess",
+          "category": "markers"
+        },
+        {
+          "id": "c022",
+          "english": "REVIEW",
+          "chinese": "需要审查",
+          "pronunciation": "/rɪˈvjuː/",
+          "example": "// REVIEW: Is this correct?",
+          "category": "markers"
+        },
+        {
+          "id": "c023",
+          "english": "XXX",
+          "chinese": "需特别关注",
+          "pronunciation": "/ˌɛks ɛks ɛks/",
+          "example": "// XXX: Critical section",
+          "category": "markers"
+        },
+        {
+          "id": "c024",
+          "english": "IDEA",
+          "chinese": "想法",
+          "pronunciation": "/aɪˈdɪə/",
+          "example": "// IDEA: Maybe use caching?",
+          "category": "markers"
+        },
+        {
+          "id": "c025",
+          "english": "REMOVED",
+          "chinese": "已移除",
+          "pronunciation": "/rɪˈmuːvd/",
+          "example": "// REMOVED: Deprecated feature",
+          "category": "markers"
+        },
+        {
+          "id": "c026",
+          "english": "CHANGED",
+          "chinese": "已更改",
+          "pronunciation": "/tʃeɪndʒd/",
+          "example": "// CHANGED: Updated algorithm",
+          "category": "markers"
+        },
+        {
+          "id": "c027",
+          "english": "INPROGRESS",
+          "chinese": "进行中",
+          "pronunciation": "/ɪn ˈprɒɡrɛs/",
+          "example": "// INPROGRESS: Implementing feature",
+          "category": "markers"
+        },
+        {
+          "id": "c028",
+          "english": "NOTIMPLEMENTED",
+          "chinese": "未实现",
+          "pronunciation": "/nɒt ˈɪmplɪmɛntɪd/",
+          "example": "// NOTIMPLEMENTED: Coming soon",
+          "category": "markers"
+        },
+        {
+          "id": "c029",
+          "english": "TEMP",
+          "chinese": "临时的",
+          "pronunciation": "/tɛmp/",
+          "example": "// TEMP: Quick fix, remove later",
+          "category": "markers"
+        },
+        {
+          "id": "c030",
+          "english": "DEBUG",
+          "chinese": "调试代码",
+          "pronunciation": "/diːˈbʌɡ/",
+          "example": "// DEBUG: Remove before commit",
+          "category": "markers"
+        },
+        {
+          "id": "c031",
+          "english": "DEPRECATED",
+          "chinese": "已弃用",
+          "pronunciation": "/ˈdɛprɪkeɪtɪd/",
+          "example": "@deprecated Use newMethod instead",
+          "category": "status"
+        },
+        {
+          "id": "c032",
+          "english": "OBSOLETE",
+          "chinese": "已淘汰",
+          "pronunciation": "/ˈɒbsəliːt/",
+          "example": "@obsolete Will be removed in v2.0",
+          "category": "status"
+        },
+        {
+          "id": "c033",
+          "english": "Internal",
+          "chinese": "内部使用",
+          "pronunciation": "/ɪnˈtɜːrnl/",
+          "example": "@internal Do not use externally",
+          "category": "status"
+        },
+        {
+          "id": "c034",
+          "english": "Experimental",
+          "chinese": "实验性的",
+          "pronunciation": "/ɪkˌspɛrɪˈmɛntl/",
+          "example": "@experimental API may change",
+          "category": "status"
+        },
+        {
+          "id": "c035",
+          "english": "Alpha",
+          "chinese": "内测版",
+          "pronunciation": "/ˈælfə/",
+          "example": "@alpha Early development stage",
+          "category": "status"
+        },
+        {
+          "id": "c036",
+          "english": "Beta",
+          "chinese": "公测版",
+          "pronunciation": "/ˈbeɪtə/",
+          "example": "@beta Testing phase",
+          "category": "status"
+        },
+        {
+          "id": "c037",
+          "english": "Stable",
+          "chinese": "稳定版",
+          "pronunciation": "/ˈsteɪbl/",
+          "example": "@stable Ready for production",
+          "category": "status"
+        },
+        {
+          "id": "c038",
+          "english": "NOSONAR",
+          "chinese": "跳过Sonar检查",
+          "pronunciation": "/noʊ ˈsoʊnɑːr/",
+          "example": "// NOSONAR: Intentional",
+          "category": "linting"
+        },
+        {
+          "id": "c039",
+          "english": "NOLINT",
+          "chinese": "跳过lint检查",
+          "pronunciation": "/noʊ lɪnt/",
+          "example": "// NOLINT: Required for compat",
+          "category": "linting"
+        },
+        {
+          "id": "c040",
+          "english": "CHECKSTYLE:OFF",
+          "chinese": "关闭Checkstyle",
+          "pronunciation": "/tʃɛk staɪl ɒf/",
+          "example": "// CHECKSTYLE:OFF",
+          "category": "linting"
+        },
+        {
+          "id": "c041",
+          "english": "SuppressWarnings",
+          "chinese": "抑制警告",
+          "pronunciation": "/səˈprɛs ˈwɔːrnɪŋz/",
+          "example": "@SuppressWarnings('unchecked')",
+          "category": "linting"
+        },
+        {
+          "id": "c042",
+          "english": "Code Reviewed",
+          "chinese": "已代码审查",
+          "pronunciation": "/koʊd rɪˈvjuːd/",
+          "example": "// Code reviewed by: John",
+          "category": "documentation"
+        },
+        {
+          "id": "c043",
+          "english": "Tested",
+          "chinese": "已测试",
+          "pronunciation": "/ˈtɛstɪd/",
+          "example": "// Tested: Unit tests pass",
+          "category": "documentation"
+        },
+        {
+          "id": "c044",
+          "english": "Verified",
+          "chinese": "已验证",
+          "pronunciation": "/ˈvɛrɪfaɪd/",
+          "example": "// Verified: Works on staging",
+          "category": "documentation"
+        },
+        {
+          "id": "c045",
+          "english": "Author",
+          "chinese": "作者",
+          "pronunciation": "/ˈɔːθər/",
+          "example": "@author John Doe",
+          "category": "documentation"
+        },
+        {
+          "id": "c046",
+          "english": "Since",
+          "chinese": "起始版本",
+          "pronunciation": "/sɪns/",
+          "example": "@since 1.0.0",
+          "category": "documentation"
+        },
+        {
+          "id": "c047",
+          "english": "Version",
+          "chinese": "版本",
+          "pronunciation": "/ˈvɜːrʒən/",
+          "example": "@version 2.1.0",
+          "category": "documentation"
+        },
+        {
+          "id": "c048",
+          "english": "Link",
+          "chinese": "链接",
+          "pronunciation": "/lɪŋk/",
+          "example": "@see {@link ClassName}",
+          "category": "documentation"
+        },
+        {
+          "id": "c049",
+          "english": "InheritDoc",
+          "chinese": "继承文档",
+          "pronunciation": "/ɪnˈhɛrɪt dɒk/",
+          "example": "{@inheritDoc}",
+          "category": "documentation"
+        },
+        {
+          "id": "c050",
+          "english": "CodeCoverage",
+          "chinese": "代码覆盖率",
+          "pronunciation": "/koʊd ˈkʌvərɪdʒ/",
+          "example": "// CodeCoverage: 95%",
+          "category": "documentation"
         }
       ]
     },
@@ -2421,6 +2981,286 @@ const computerEnglishData = {
           "pronunciation": "/ðæts nɒt ə bʌɡ ðæts ə ˈfiːtʃər/",
           "example": "Dev: That's not a bug, that's a feature!",
           "category": "humor"
+        },
+        {
+          "id": "d016",
+          "english": "Works as intended",
+          "chinese": "按预期工作",
+          "pronunciation": "/wɜːrks æz ɪnˈtɛndɪd/",
+          "example": "PM: Is this a bug? Dev: No, it works as intended",
+          "category": "humor"
+        },
+        {
+          "id": "d017",
+          "english": "It's a known issue",
+          "chinese": "这是已知问题",
+          "pronunciation": "/ɪts ə noʊn ˈɪʃuː/",
+          "example": "Dev: It's a known issue, we're working on it",
+          "category": "communication"
+        },
+        {
+          "id": "d018",
+          "english": "I'll create a ticket",
+          "chinese": "我会创建一个工单",
+          "pronunciation": "/aɪl kriːˈeɪt ə ˈtɪkɪt/",
+          "example": "Dev: I'll create a ticket to track this",
+          "category": "workflow"
+        },
+        {
+          "id": "d019",
+          "english": "Let me check the logs",
+          "chinese": "让我查一下日志",
+          "pronunciation": "/lɛt miː tʃɛk ðə lɒɡz/",
+          "example": "Dev: Let me check the logs to see what happened",
+          "category": "debugging"
+        },
+        {
+          "id": "d020",
+          "english": "I can't reproduce it",
+          "chinese": "我无法复现",
+          "pronunciation": "/aɪ kɑːnt riːˈprɒdjuːs ɪt/",
+          "example": "Dev: I can't reproduce it on my machine",
+          "category": "debugging"
+        },
+        {
+          "id": "d021",
+          "english": "It's in the backlog",
+          "chinese": "在待办列表里",
+          "pronunciation": "/ɪts ɪn ðə ˈbæklɒɡ/",
+          "example": "Dev: It's in the backlog for next sprint",
+          "category": "planning"
+        },
+        {
+          "id": "d022",
+          "english": "We need to prioritize",
+          "chinese": "我们需要排优先级",
+          "pronunciation": "/wiː niːd tuː praɪˈɒrɪtaɪz/",
+          "example": "PM: We need to prioritize these features",
+          "category": "planning"
+        },
+        {
+          "id": "d023",
+          "english": "Let's sync up",
+          "chinese": "我们对齐一下",
+          "pronunciation": "/lɛts sɪŋk ʌp/",
+          "example": "Dev: Let's sync up on the progress",
+          "category": "communication"
+        },
+        {
+          "id": "d024",
+          "english": "I'll ping you",
+          "chinese": "我会联系你",
+          "pronunciation": "/aɪl pɪŋ juː/",
+          "example": "Dev: I'll ping you when it's done",
+          "category": "communication"
+        },
+        {
+          "id": "d025",
+          "english": "Circle back",
+          "chinese": "回头再讨论",
+          "pronunciation": "/ˈsɜːrkl bæk/",
+          "example": "Dev: Let's circle back to this later",
+          "category": "communication"
+        },
+        {
+          "id": "d026",
+          "english": "Touch base",
+          "chinese": "碰一下/沟通",
+          "pronunciation": "/tʌtʃ beɪs/",
+          "example": "Dev: Let's touch base tomorrow",
+          "category": "communication"
+        },
+        {
+          "id": "d027",
+          "english": "Take this offline",
+          "chinese": "私下讨论",
+          "pronunciation": "/teɪk ðɪs ˈɒflaɪn/",
+          "example": "Dev: Let's take this offline",
+          "category": "communication"
+        },
+        {
+          "id": "d028",
+          "english": "Move the needle",
+          "chinese": "产生实质影响",
+          "pronunciation": "/muːv ðə ˈniːdl/",
+          "example": "PM: Will this move the needle?",
+          "category": "business"
+        },
+        {
+          "id": "d029",
+          "english": "Low-hanging fruit",
+          "chinese": "容易实现的目标",
+          "pronunciation": "/loʊ ˈhæŋɪŋ fruːt/",
+          "example": "Dev: Let's pick the low-hanging fruit first",
+          "category": "planning"
+        },
+        {
+          "id": "d030",
+          "english": "Quick win",
+          "chinese": "快速胜利",
+          "pronunciation": "/kwɪk wɪn/",
+          "example": "Dev: This is a quick win for the team",
+          "category": "planning"
+        },
+        {
+          "id": "d031",
+          "english": "Deep dive",
+          "chinese": "深入分析",
+          "pronunciation": "/diːp daɪv/",
+          "example": "Dev: We need a deep dive into the issue",
+          "category": "analysis"
+        },
+        {
+          "id": "d032",
+          "english": "Root cause",
+          "chinese": "根本原因",
+          "pronunciation": "/ruːt kɔːz/",
+          "example": "Dev: We need to find the root cause",
+          "category": "debugging"
+        },
+        {
+          "id": "d033",
+          "english": "Scope creep",
+          "chinese": "范围蔓延",
+          "pronunciation": "/skoʊp kriːp/",
+          "example": "PM: We need to avoid scope creep",
+          "category": "planning"
+        },
+        {
+          "id": "d034",
+          "english": "Buy-in",
+          "chinese": "支持/认可",
+          "pronunciation": "/ˈbaɪ ɪn/",
+          "example": "Dev: We need stakeholder buy-in",
+          "category": "business"
+        },
+        {
+          "id": "d035",
+          "english": "Action items",
+          "chinese": "行动项",
+          "pronunciation": "/ˈækʃən ˈaɪtəmz/",
+          "example": "Dev: Here are the action items from the meeting",
+          "category": "meeting"
+        },
+        {
+          "id": "d036",
+          "english": "Take ownership",
+          "chinese": "承担责任",
+          "pronunciation": "/teɪk ˈoʊnərʃɪp/",
+          "example": "Dev: I'll take ownership of this task",
+          "category": "responsibility"
+        },
+        {
+          "id": "d037",
+          "english": "On the same page",
+          "chinese": "达成共识",
+          "pronunciation": "/ɒn ðə seɪm peɪdʒ/",
+          "example": "Dev: Are we on the same page?",
+          "category": "communication"
+        },
+        {
+          "id": "d038",
+          "english": "Ballpark estimate",
+          "chinese": "大致估算",
+          "pronunciation": "/ˈbɔːlpɑːrk ˈɛstɪmət/",
+          "example": "Dev: Give me a ballpark estimate",
+          "category": "estimation"
+        },
+        {
+          "id": "d039",
+          "english": "Hard deadline",
+          "chinese": "硬性截止日期",
+          "pronunciation": "/hɑːrd ˈdɛdlaɪn/",
+          "example": "PM: This is a hard deadline",
+          "category": "planning"
+        },
+        {
+          "id": "d040",
+          "english": "Nice to have",
+          "chinese": "锦上添花",
+          "pronunciation": "/naɪs tuː hæv/",
+          "example": "Dev: This is a nice to have feature",
+          "category": "planning"
+        },
+        {
+          "id": "d041",
+          "english": "Must have",
+          "chinese": "必须有",
+          "pronunciation": "/mʌst hæv/",
+          "example": "PM: This is a must have for MVP",
+          "category": "planning"
+        },
+        {
+          "id": "d042",
+          "english": "Blocker",
+          "chinese": "阻碍/障碍",
+          "pronunciation": "/ˈblɒkər/",
+          "example": "Dev: This is a blocker for the release",
+          "category": "workflow"
+        },
+        {
+          "id": "d043",
+          "english": "Unblock",
+          "chinese": "解除阻碍",
+          "pronunciation": "/ʌnˈblɒk/",
+          "example": "Dev: Can you help unblock me?",
+          "category": "workflow"
+        },
+        {
+          "id": "d044",
+          "english": "Dependencies",
+          "chinese": "依赖项",
+          "pronunciation": "/dɪˈpɛndənsiz/",
+          "example": "Dev: We have dependencies on other teams",
+          "category": "workflow"
+        },
+        {
+          "id": "d045",
+          "english": "Stakeholder",
+          "chinese": "利益相关者",
+          "pronunciation": "/ˈsteɪkhoʊldər/",
+          "example": "PM: We need to inform stakeholders",
+          "category": "business"
+        },
+        {
+          "id": "d046",
+          "english": "Sign off",
+          "chinese": "批准/签字",
+          "pronunciation": "/saɪn ɒf/",
+          "example": "Dev: Waiting for QA to sign off",
+          "category": "approval"
+        },
+        {
+          "id": "d047",
+          "english": "Go live",
+          "chinese": "上线",
+          "pronunciation": "/ɡoʊ laɪv/",
+          "example": "Dev: We're ready to go live",
+          "category": "deployment"
+        },
+        {
+          "id": "d048",
+          "english": "Sunset",
+          "chinese": "淘汰/下线",
+          "pronunciation": "/ˈsʌnsɛt/",
+          "example": "Dev: We need to sunset this feature",
+          "category": "lifecycle"
+        },
+        {
+          "id": "d049",
+          "english": "EOD (End of Day)",
+          "chinese": "今天下班前",
+          "pronunciation": "/iː oʊ diː/",
+          "example": "Dev: I'll finish it by EOD",
+          "category": "timeline"
+        },
+        {
+          "id": "d050",
+          "english": "ASAP (As Soon As Possible)",
+          "chinese": "尽快",
+          "pronunciation": "/eɪ ɛs eɪ piː/",
+          "example": "PM: We need this ASAP",
+          "category": "timeline"
         }
       ]
     },
@@ -2548,6 +3388,286 @@ const computerEnglishData = {
           "chinese": "命名空间",
           "pronunciation": "/ˈneɪmspɛɪs/",
           "example": "kubectl get pods -n production",
+          "category": "kubernetes"
+        },
+        {
+          "id": "dk016",
+          "english": "docker stop",
+          "chinese": "停止容器",
+          "pronunciation": "/ˈdɒkər stɒp/",
+          "example": "docker stop container_id",
+          "category": "docker"
+        },
+        {
+          "id": "dk017",
+          "english": "docker rm",
+          "chinese": "删除容器",
+          "pronunciation": "/ˈdɒkər ɑːr ɛm/",
+          "example": "docker rm container_id",
+          "category": "docker"
+        },
+        {
+          "id": "dk018",
+          "english": "docker rmi",
+          "chinese": "删除镜像",
+          "pronunciation": "/ˈdɒkər ɑːr ɛm aɪ/",
+          "example": "docker rmi image_id",
+          "category": "docker"
+        },
+        {
+          "id": "dk019",
+          "english": "docker inspect",
+          "chinese": "查看容器详情",
+          "pronunciation": "/ˈdɒkər ɪnˈspɛkt/",
+          "example": "docker inspect container_id",
+          "category": "docker"
+        },
+        {
+          "id": "dk020",
+          "english": "docker network",
+          "chinese": "管理Docker网络",
+          "pronunciation": "/ˈdɒkər ˈnɛtwɜːrk/",
+          "example": "docker network ls",
+          "category": "docker"
+        },
+        {
+          "id": "dk021",
+          "english": "docker volume",
+          "chinese": "管理数据卷",
+          "pronunciation": "/ˈdɒkər ˈvɒljuːm/",
+          "example": "docker volume create my_volume",
+          "category": "docker"
+        },
+        {
+          "id": "dk022",
+          "english": "docker push",
+          "chinese": "推送镜像到仓库",
+          "pronunciation": "/ˈdɒkər pʊʃ/",
+          "example": "docker push username/image:tag",
+          "category": "docker"
+        },
+        {
+          "id": "dk023",
+          "english": "docker tag",
+          "chinese": "标记镜像",
+          "pronunciation": "/ˈdɒkər tæɡ/",
+          "example": "docker tag source_image target_image:tag",
+          "category": "docker"
+        },
+        {
+          "id": "dk024",
+          "english": "docker login",
+          "chinese": "登录镜像仓库",
+          "pronunciation": "/ˈdɒkər ˈlɒɡɪn/",
+          "example": "docker login registry.example.com",
+          "category": "docker"
+        },
+        {
+          "id": "dk025",
+          "english": "Dockerfile",
+          "chinese": "Docker构建文件",
+          "pronunciation": "/ˈdɒkər faɪl/",
+          "example": "Write a Dockerfile to build image",
+          "category": "docker"
+        },
+        {
+          "id": "dk026",
+          "english": "docker-compose up",
+          "chinese": "启动Compose服务",
+          "pronunciation": "/ˈdɒkər kɒmpoʊz ʌp/",
+          "example": "docker-compose up -d",
+          "category": "docker"
+        },
+        {
+          "id": "dk027",
+          "english": "docker-compose down",
+          "chinese": "停止Compose服务",
+          "pronunciation": "/ˈdɒkər kɒmpoʊz daʊn/",
+          "example": "docker-compose down",
+          "category": "docker"
+        },
+        {
+          "id": "dk028",
+          "english": "Layer",
+          "chinese": "镜像层",
+          "pronunciation": "/ˈleɪər/",
+          "example": "Each instruction creates a new layer",
+          "category": "docker"
+        },
+        {
+          "id": "dk029",
+          "english": "Registry",
+          "chinese": "镜像仓库",
+          "pronunciation": "/ˈrɛdʒɪstri/",
+          "example": "Push image to Docker Hub registry",
+          "category": "docker"
+        },
+        {
+          "id": "dk030",
+          "english": "Repository",
+          "chinese": "镜像仓库（项目）",
+          "pronunciation": "/rɪˈpɒzɪtɔːri/",
+          "example": "Pull from official repository",
+          "category": "docker"
+        },
+        {
+          "id": "dk031",
+          "english": "Multi-stage build",
+          "chinese": "多阶段构建",
+          "pronunciation": "/ˈmʌlti steɪdʒ bɪld/",
+          "example": "Use multi-stage builds to reduce image size",
+          "category": "docker"
+        },
+        {
+          "id": "dk032",
+          "english": "Health check",
+          "chinese": "健康检查",
+          "pronunciation": "/hɛlθ tʃɛk/",
+          "example": "Configure container health check",
+          "category": "docker"
+        },
+        {
+          "id": "dk033",
+          "english": "kubectl apply",
+          "chinese": "应用配置",
+          "pronunciation": "/ˈkuːb siːtl əˈplaɪ/",
+          "example": "kubectl apply -f deployment.yaml",
+          "category": "kubernetes"
+        },
+        {
+          "id": "dk034",
+          "english": "kubectl delete",
+          "chinese": "删除资源",
+          "pronunciation": "/ˈkuːb siːtl dɪˈliːt/",
+          "example": "kubectl delete pod my-pod",
+          "category": "kubernetes"
+        },
+        {
+          "id": "dk035",
+          "english": "kubectl describe",
+          "chinese": "查看资源详情",
+          "pronunciation": "/ˈkuːb siːtl dɪˈskraɪb/",
+          "example": "kubectl describe pod my-pod",
+          "category": "kubernetes"
+        },
+        {
+          "id": "dk036",
+          "english": "kubectl logs",
+          "chinese": "查看容器日志",
+          "pronunciation": "/ˈkuːb siːtl lɒɡz/",
+          "example": "kubectl logs my-pod",
+          "category": "kubernetes"
+        },
+        {
+          "id": "dk037",
+          "english": "kubectl exec",
+          "chinese": "在容器内执行命令",
+          "pronunciation": "/ˈkuːb siːtl ɪɡˈzɛk/",
+          "example": "kubectl exec -it my-pod -- /bin/bash",
+          "category": "kubernetes"
+        },
+        {
+          "id": "dk038",
+          "english": "kubectl scale",
+          "chinese": "扩缩容",
+          "pronunciation": "/ˈkuːb siːtl skeɪl/",
+          "example": "kubectl scale deployment my-app --replicas=3",
+          "category": "kubernetes"
+        },
+        {
+          "id": "dk039",
+          "english": "kubectl port-forward",
+          "chinese": "端口转发",
+          "pronunciation": "/ˈkuːb siːtl pɔːrt ˈfɔːrwərd/",
+          "example": "kubectl port-forward pod/my-pod 8080:80",
+          "category": "kubernetes"
+        },
+        {
+          "id": "dk040",
+          "english": "ConfigMap",
+          "chinese": "配置映射",
+          "pronunciation": "/ˈkɒnfɪɡ mæp/",
+          "example": "Store configuration in ConfigMap",
+          "category": "kubernetes"
+        },
+        {
+          "id": "dk041",
+          "english": "Secret",
+          "chinese": "密钥",
+          "pronunciation": "/ˈsiːkrət/",
+          "example": "Store passwords in Secrets",
+          "category": "kubernetes"
+        },
+        {
+          "id": "dk042",
+          "english": "Ingress",
+          "chinese": "入口控制器",
+          "pronunciation": "/ˈɪnɡrɛs/",
+          "example": "Configure Ingress for external access",
+          "category": "kubernetes"
+        },
+        {
+          "id": "dk043",
+          "english": "Persistent Volume",
+          "chinese": "持久卷",
+          "pronunciation": "/pərˈsɪstənt ˈvɒljuːm/",
+          "example": "Create a Persistent Volume",
+          "category": "kubernetes"
+        },
+        {
+          "id": "dk044",
+          "english": "StatefulSet",
+          "chinese": "有状态应用集",
+          "pronunciation": "/ˈsteɪtfʊl sɛt/",
+          "example": "Deploy database with StatefulSet",
+          "category": "kubernetes"
+        },
+        {
+          "id": "dk045",
+          "english": "DaemonSet",
+          "chinese": "守护进程集",
+          "pronunciation": "/ˈdiːmən sɛt/",
+          "example": "Run logging agent as DaemonSet",
+          "category": "kubernetes"
+        },
+        {
+          "id": "dk046",
+          "english": "Job",
+          "chinese": "任务",
+          "pronunciation": "/dʒɒb/",
+          "example": "Create a batch Job",
+          "category": "kubernetes"
+        },
+        {
+          "id": "dk047",
+          "english": "CronJob",
+          "chinese": "定时任务",
+          "pronunciation": "/krɒn dʒɒb/",
+          "example": "Schedule tasks with CronJob",
+          "category": "kubernetes"
+        },
+        {
+          "id": "dk048",
+          "english": "Helm",
+          "chinese": "K8s包管理器",
+          "pronunciation": "/hɛlm/",
+          "example": "Install charts with Helm",
+          "category": "kubernetes"
+        },
+        {
+          "id": "dk049",
+          "english": "Chart",
+          "chinese": "Helm包",
+          "pronunciation": "/tʃɑːrt/",
+          "example": "Deploy using Helm chart",
+          "category": "kubernetes"
+        },
+        {
+          "id": "dk050",
+          "english": "Node",
+          "chinese": "工作节点",
+          "pronunciation": "/noʊd/",
+          "example": "Scale by adding more nodes",
           "category": "kubernetes"
         }
       ]
@@ -2677,6 +3797,286 @@ const computerEnglishData = {
           "pronunciation": "/ˈæsɪd/",
           "example": "Ensure ACID compliance",
           "category": "concepts"
+        },
+        {
+          "id": "db016",
+          "english": "CREATE TABLE",
+          "chinese": "创建表",
+          "pronunciation": "/kriːˈeɪt ˈteɪbl/",
+          "example": "CREATE TABLE users (id INT PRIMARY KEY)",
+          "category": "ddl"
+        },
+        {
+          "id": "db017",
+          "english": "DROP TABLE",
+          "chinese": "删除表",
+          "pronunciation": "/drɒp ˈteɪbl/",
+          "example": "DROP TABLE IF EXISTS temp_table",
+          "category": "ddl"
+        },
+        {
+          "id": "db018",
+          "english": "ALTER TABLE",
+          "chinese": "修改表结构",
+          "pronunciation": "/ˈɔːltər ˈteɪbl/",
+          "example": "ALTER TABLE users ADD COLUMN age INT",
+          "category": "ddl"
+        },
+        {
+          "id": "db019",
+          "english": "TRUNCATE",
+          "chinese": "清空表",
+          "pronunciation": "/ˈtrʌŋkeɪt/",
+          "example": "TRUNCATE TABLE logs",
+          "category": "ddl"
+        },
+        {
+          "id": "db020",
+          "english": "WHERE",
+          "chinese": "条件筛选",
+          "pronunciation": "/wɛər/",
+          "example": "SELECT * FROM users WHERE age > 18",
+          "category": "sql"
+        },
+        {
+          "id": "db021",
+          "english": "GROUP BY",
+          "chinese": "分组",
+          "pronunciation": "/ɡruːp baɪ/",
+          "example": "SELECT department, COUNT(*) FROM employees GROUP BY department",
+          "category": "sql"
+        },
+        {
+          "id": "db022",
+          "english": "ORDER BY",
+          "chinese": "排序",
+          "pronunciation": "/ˈɔːrdər baɪ/",
+          "example": "SELECT * FROM products ORDER BY price DESC",
+          "category": "sql"
+        },
+        {
+          "id": "db023",
+          "english": "HAVING",
+          "chinese": "分组后筛选",
+          "pronunciation": "/ˈhævɪŋ/",
+          "example": "SELECT department, AVG(salary) FROM employees GROUP BY department HAVING AVG(salary) > 50000",
+          "category": "sql"
+        },
+        {
+          "id": "db024",
+          "english": "LIMIT / OFFSET",
+          "chinese": "限制结果数量/偏移",
+          "pronunciation": "/ˈlɪmɪt / ˈɒfset/",
+          "example": "SELECT * FROM products LIMIT 10 OFFSET 20",
+          "category": "sql"
+        },
+        {
+          "id": "db025",
+          "english": "DISTINCT",
+          "chinese": "去重",
+          "pronunciation": "/dɪˈstɪŋkt/",
+          "example": "SELECT DISTINCT country FROM customers",
+          "category": "sql"
+        },
+        {
+          "id": "db026",
+          "english": "COUNT",
+          "chinese": "计数",
+          "pronunciation": "/kaʊnt/",
+          "example": "SELECT COUNT(*) FROM orders",
+          "category": "sql"
+        },
+        {
+          "id": "db027",
+          "english": "SUM / AVG / MAX / MIN",
+          "chinese": "求和/平均/最大/最小",
+          "pronunciation": "/sʌm / ˈævərɪdʒ / mæks / mɪn/",
+          "example": "SELECT AVG(price), MAX(price) FROM products",
+          "category": "sql"
+        },
+        {
+          "id": "db028",
+          "english": "LIKE",
+          "chinese": "模糊匹配",
+          "pronunciation": "/laɪk/",
+          "example": "SELECT * FROM users WHERE name LIKE '%John%'",
+          "category": "sql"
+        },
+        {
+          "id": "db029",
+          "english": "IN",
+          "chinese": "在...之中",
+          "pronunciation": "/ɪn/",
+          "example": "SELECT * FROM products WHERE id IN (1, 2, 3)",
+          "category": "sql"
+        },
+        {
+          "id": "db030",
+          "english": "BETWEEN",
+          "chinese": "在...之间",
+          "pronunciation": "/bɪˈtwiːn/",
+          "example": "SELECT * FROM orders WHERE date BETWEEN '2023-01-01' AND '2023-12-31'",
+          "category": "sql"
+        },
+        {
+          "id": "db031",
+          "english": "IS NULL",
+          "chinese": "为空",
+          "pronunciation": "/ɪz nʌl/",
+          "example": "SELECT * FROM users WHERE phone IS NULL",
+          "category": "sql"
+        },
+        {
+          "id": "db032",
+          "english": "UNION",
+          "chinese": "合并结果集",
+          "pronunciation": "/ˈjuːniən/",
+          "example": "SELECT name FROM customers_a UNION SELECT name FROM customers_b",
+          "category": "sql"
+        },
+        {
+          "id": "db033",
+          "english": "EXISTS",
+          "chinese": "存在",
+          "pronunciation": "/ɪɡˈzɪsts/",
+          "example": "SELECT * FROM products WHERE EXISTS (SELECT 1 FROM orders WHERE product_id = products.id)",
+          "category": "sql"
+        },
+        {
+          "id": "db034",
+          "english": "CASE WHEN",
+          "chinese": "条件判断",
+          "pronunciation": "/keɪs wɛn/",
+          "example": "SELECT name, CASE WHEN age >= 18 THEN 'Adult' ELSE 'Minor' END FROM users",
+          "category": "sql"
+        },
+        {
+          "id": "db035",
+          "english": "VIEW",
+          "chinese": "视图",
+          "pronunciation": "/vjuː/",
+          "example": "CREATE VIEW active_users AS SELECT * FROM users WHERE status = 'active'",
+          "category": "schema"
+        },
+        {
+          "id": "db036",
+          "english": "TRIGGER",
+          "chinese": "触发器",
+          "pronunciation": "/ˈtrɪɡər/",
+          "example": "CREATE TRIGGER update_timestamp BEFORE UPDATE ON users",
+          "category": "schema"
+        },
+        {
+          "id": "db037",
+          "english": "STORED PROCEDURE",
+          "chinese": "存储过程",
+          "pronunciation": "/stɔːrd prəˈsiːdʒər/",
+          "example": "CREATE PROCEDURE GetUserById(IN userId INT)",
+          "category": "schema"
+        },
+        {
+          "id": "db038",
+          "english": "UNIQUE constraint",
+          "chinese": "唯一约束",
+          "pronunciation": "/juːˈniːk kənˈstreɪnt/",
+          "example": "ALTER TABLE users ADD CONSTRAINT unique_email UNIQUE (email)",
+          "category": "schema"
+        },
+        {
+          "id": "db039",
+          "english": "CHECK constraint",
+          "chinese": "检查约束",
+          "pronunciation": "/tʃɛk kənˈstreɪnt/",
+          "example": "CONSTRAINT check_age CHECK (age >= 0)",
+          "category": "schema"
+        },
+        {
+          "id": "db040",
+          "english": "CASCADE",
+          "chinese": "级联",
+          "pronunciation": "/ˈkæskeɪd/",
+          "example": "ON DELETE CASCADE",
+          "category": "schema"
+        },
+        {
+          "id": "db041",
+          "english": "Normalization",
+          "chinese": "数据库规范化",
+          "pronunciation": "/ˌnɔːrmələˈzeɪʃn/",
+          "example": "Apply database normalization to reduce redundancy",
+          "category": "concepts"
+        },
+        {
+          "id": "db042",
+          "english": "Denormalization",
+          "chinese": "反规范化",
+          "pronunciation": "/diːˌnɔːrmələˈzeɪʃn/",
+          "example": "Use denormalization for read-heavy workloads",
+          "category": "concepts"
+        },
+        {
+          "id": "db043",
+          "english": "Sharding",
+          "chinese": "分片",
+          "pronunciation": "/ˈʃɑːrdɪŋ/",
+          "example": "Implement database sharding for scalability",
+          "category": "scaling"
+        },
+        {
+          "id": "db044",
+          "english": "Replication",
+          "chinese": "复制",
+          "pronunciation": "/ˌreplɪˈkeɪʃn/",
+          "example": "Set up master-slave replication",
+          "category": "scaling"
+        },
+        {
+          "id": "db045",
+          "english": "Master / Slave",
+          "chinese": "主/从",
+          "pronunciation": "/ˈmæstər / sleɪv/",
+          "example": "Configure master-slave replication",
+          "category": "scaling"
+        },
+        {
+          "id": "db046",
+          "english": "Deadlock",
+          "chinese": "死锁",
+          "pronunciation": "/ˈdedlɒk/",
+          "example": "Detect and resolve database deadlock",
+          "category": "performance"
+        },
+        {
+          "id": "db047",
+          "english": "Query optimization",
+          "chinese": "查询优化",
+          "pronunciation": "/ˈkwɪəri ˌɒptɪmaɪˈzeɪʃn/",
+          "example": "Use EXPLAIN for query optimization",
+          "category": "performance"
+        },
+        {
+          "id": "db048",
+          "english": "Explain plan",
+          "chinese": "执行计划",
+          "pronunciation": "/ɪkˈspleɪn plæn/",
+          "example": "Check the EXPLAIN plan for slow queries",
+          "category": "performance"
+        },
+        {
+          "id": "db049",
+          "english": "NoSQL",
+          "chinese": "非关系型数据库",
+          "pronunciation": "/noʊ ˈɛs kjuː ɛl/",
+          "example": "Use NoSQL for unstructured data",
+          "category": "concepts"
+        },
+        {
+          "id": "db050",
+          "english": "Database seeding",
+          "chinese": "数据库种子数据",
+          "pronunciation": "/ˈdeɪtəbeɪs ˈsiːdɪŋ/",
+          "example": "Run database seeding for initial data",
+          "category": "tools"
         }
       ]
     },
@@ -2804,6 +4204,286 @@ const computerEnglishData = {
           "chinese": "排序算法",
           "pronunciation": "/ˈsɔːrtɪŋ ˈælɡərɪðəm/",
           "example": "Quick sort and merge sort algorithms",
+          "category": "algorithms"
+        },
+        {
+          "id": "alg016",
+          "english": "Quick Sort",
+          "chinese": "快速排序",
+          "pronunciation": "/kwɪk sɔːrt/",
+          "example": "Quick sort has O(n log n) average time complexity",
+          "category": "algorithms"
+        },
+        {
+          "id": "alg017",
+          "english": "Merge Sort",
+          "chinese": "归并排序",
+          "pronunciation": "/mɜːrdʒ sɔːrt/",
+          "example": "Merge sort uses divide and conquer approach",
+          "category": "algorithms"
+        },
+        {
+          "id": "alg018",
+          "english": "Binary Search Tree",
+          "chinese": "二叉搜索树",
+          "pronunciation": "/ˈbaɪnəri sɜːrtʃ triː/",
+          "example": "Use binary search tree for efficient lookup",
+          "category": "structures"
+        },
+        {
+          "id": "alg019",
+          "english": "AVL Tree",
+          "chinese": "平衡二叉树",
+          "pronunciation": "/ˌeɪ viː ˈɛl triː/",
+          "example": "AVL tree maintains balance factor",
+          "category": "structures"
+        },
+        {
+          "id": "alg020",
+          "english": "Red-Black Tree",
+          "chinese": "红黑树",
+          "pronunciation": "/rɛd blæk triː/",
+          "example": "Red-black tree ensures O(log n) operations",
+          "category": "structures"
+        },
+        {
+          "id": "alg021",
+          "english": "Heap Sort",
+          "chinese": "堆排序",
+          "pronunciation": "/hiːp sɔːrt/",
+          "example": "Heap sort uses max-heap structure",
+          "category": "algorithms"
+        },
+        {
+          "id": "alg022",
+          "english": "Greedy Algorithm",
+          "chinese": "贪心算法",
+          "pronunciation": "/ˈɡriːdi ˈælɡərɪðəm/",
+          "example": "Greedy algorithm makes locally optimal choices",
+          "category": "techniques"
+        },
+        {
+          "id": "alg023",
+          "english": "Backtracking",
+          "chinese": "回溯算法",
+          "pronunciation": "/ˈbækˌtrækɪŋ/",
+          "example": "Solve N-Queens problem using backtracking",
+          "category": "techniques"
+        },
+        {
+          "id": "alg024",
+          "english": "Memoization",
+          "chinese": "记忆化",
+          "pronunciation": "/ˌmɛmɔɪˈzeɪʃən/",
+          "example": "Use memoization to cache results",
+          "category": "techniques"
+        },
+        {
+          "id": "alg025",
+          "english": "Tabulation",
+          "chinese": "表格法",
+          "pronunciation": "/ˌtæbjuˈleɪʃən/",
+          "example": "Tabulation builds solution bottom-up",
+          "category": "techniques"
+        },
+        {
+          "id": "alg026",
+          "english": "Dijkstra's Algorithm",
+          "chinese": "迪杰斯特拉算法",
+          "pronunciation": "/ˈdaɪkstrəz ˈælɡərɪðəm/",
+          "example": "Dijkstra's algorithm finds shortest path",
+          "category": "algorithms"
+        },
+        {
+          "id": "alg027",
+          "english": "Bellman-Ford",
+          "chinese": "贝尔曼-福特算法",
+          "pronunciation": "/ˈbɛlmən fɔːrd/",
+          "example": "Bellman-Ford handles negative weights",
+          "category": "algorithms"
+        },
+        {
+          "id": "alg028",
+          "english": "Floyd-Warshall",
+          "chinese": "弗洛伊德算法",
+          "pronunciation": "/flɔɪd ˈwɔːrʃəl/",
+          "example": "Floyd-Warshall finds all-pairs shortest paths",
+          "category": "algorithms"
+        },
+        {
+          "id": "alg029",
+          "english": "Minimum Spanning Tree",
+          "chinese": "最小生成树",
+          "pronunciation": "/ˈmɪnɪməm ˈspænɪŋ triː/",
+          "example": "Find MST using Kruskal's algorithm",
+          "category": "algorithms"
+        },
+        {
+          "id": "alg030",
+          "english": "Topological Sort",
+          "chinese": "拓扑排序",
+          "pronunciation": "/ˌtɒpəˈlɒdʒɪkl sɔːrt/",
+          "example": "Topological sort orders DAG nodes",
+          "category": "algorithms"
+        },
+        {
+          "id": "alg031",
+          "english": "Bit Manipulation",
+          "chinese": "位运算",
+          "pronunciation": "/bɪt məˌnɪpjuˈleɪʃən/",
+          "example": "Use bit manipulation for efficiency",
+          "category": "techniques"
+        },
+        {
+          "id": "alg032",
+          "english": "Sliding Window",
+          "chinese": "滑动窗口",
+          "pronunciation": "/ˈslaɪdɪŋ ˈwɪndoʊ/",
+          "example": "Sliding window technique for subarray problems",
+          "category": "techniques"
+        },
+        {
+          "id": "alg033",
+          "english": "Two Pointers",
+          "chinese": "双指针",
+          "pronunciation": "/tuː ˈpɔɪntərz/",
+          "example": "Two pointers approach for array problems",
+          "category": "techniques"
+        },
+        {
+          "id": "alg034",
+          "english": "Union-Find",
+          "chinese": "并查集",
+          "pronunciation": "/ˈjuːniən faɪnd/",
+          "example": "Union-Find for connected components",
+          "category": "structures"
+        },
+        {
+          "id": "alg035",
+          "english": "Trie",
+          "chinese": "前缀树/字典树",
+          "pronunciation": "/traɪ/",
+          "example": "Use Trie for prefix matching",
+          "category": "structures"
+        },
+        {
+          "id": "alg036",
+          "english": "Segment Tree",
+          "chinese": "线段树",
+          "pronunciation": "/ˈsɛɡmənt triː/",
+          "example": "Segment tree for range queries",
+          "category": "structures"
+        },
+        {
+          "id": "alg037",
+          "english": "Fenwick Tree",
+          "chinese": "树状数组",
+          "pronunciation": "/ˈfɛnɪk triː/",
+          "example": "Fenwick tree for prefix sums",
+          "category": "structures"
+        },
+        {
+          "id": "alg038",
+          "english": "Bloom Filter",
+          "chinese": "布隆过滤器",
+          "pronunciation": "/bluːm ˈfɪltər/",
+          "example": "Bloom filter for membership testing",
+          "category": "structures"
+        },
+        {
+          "id": "alg039",
+          "english": "LRU Cache",
+          "chinese": "最近最少使用缓存",
+          "pronunciation": "/ˌɛl ɑːr ˈjuː kæʃ/",
+          "example": "Implement LRU cache with hash map and doubly linked list",
+          "category": "structures"
+        },
+        {
+          "id": "alg040",
+          "english": "Amortized Analysis",
+          "chinese": "摊还分析",
+          "pronunciation": "/ˈæmɔːrtaɪzd əˈnæləsɪs/",
+          "example": "Amortized analysis of dynamic array",
+          "category": "complexity"
+        },
+        {
+          "id": "alg041",
+          "english": "Master Theorem",
+          "chinese": "主定理",
+          "pronunciation": "/ˈmɑːstər ˈθɪərəm/",
+          "example": "Apply Master theorem to recurrence relations",
+          "category": "complexity"
+        },
+        {
+          "id": "alg042",
+          "english": "P vs NP",
+          "chinese": "P与NP问题",
+          "pronunciation": "/piː vɜːrs ɛn piː/",
+          "example": "P vs NP is a major unsolved problem",
+          "category": "complexity"
+        },
+        {
+          "id": "alg043",
+          "english": "Brute Force",
+          "chinese": "暴力解法",
+          "pronunciation": "/bruːt fɔːrs/",
+          "example": "Brute force approach tries all possibilities",
+          "category": "techniques"
+        },
+        {
+          "id": "alg044",
+          "english": "Divide and Conquer",
+          "chinese": "分治法",
+          "pronunciation": "/dɪˈvaɪd ænd ˈkɒŋkər/",
+          "example": "Merge sort uses divide and conquer",
+          "category": "techniques"
+        },
+        {
+          "id": "alg045",
+          "english": "KMP Algorithm",
+          "chinese": "字符串匹配算法",
+          "pronunciation": "/keɪ ɛm piː ˈælɡərɪðəm/",
+          "example": "KMP algorithm for pattern matching",
+          "category": "algorithms"
+        },
+        {
+          "id": "alg046",
+          "english": "Rabin-Karp",
+          "chinese": "字符串搜索算法",
+          "pronunciation": "/ˈrɑːbɪn kɑːrp/",
+          "example": "Rabin-Karp uses rolling hash",
+          "category": "algorithms"
+        },
+        {
+          "id": "alg047",
+          "english": "Manacher's Algorithm",
+          "chinese": "马拉车算法",
+          "pronunciation": "/ˈmænətʃərz ˈælɡərɪðəm/",
+          "example": "Manacher's algorithm finds longest palindrome",
+          "category": "algorithms"
+        },
+        {
+          "id": "alg048",
+          "english": "Bucket Sort",
+          "chinese": "桶排序",
+          "pronunciation": "/ˈbʌkɪt sɔːrt/",
+          "example": "Bucket sort distributes elements into buckets",
+          "category": "algorithms"
+        },
+        {
+          "id": "alg049",
+          "english": "Counting Sort",
+          "chinese": "计数排序",
+          "pronunciation": "/ˈkaʊntɪŋ sɔːrt/",
+          "example": "Counting sort for integers in range",
+          "category": "algorithms"
+        },
+        {
+          "id": "alg050",
+          "english": "Radix Sort",
+          "chinese": "基数排序",
+          "pronunciation": "/ˈreɪdɪks sɔːrt/",
+          "example": "Radix sort processes digits from LSD to MSD",
           "category": "algorithms"
         }
       ]
@@ -2933,6 +4613,286 @@ const computerEnglishData = {
           "pronunciation": "/kɔːrs/",
           "example": "Enable CORS for the API",
           "category": "security"
+        },
+        {
+          "id": "net016",
+          "english": "IP Address",
+          "chinese": "IP地址",
+          "pronunciation": "/aɪ piː əˈdrɛs/",
+          "example": "Server has a static IP address",
+          "category": "basics"
+        },
+        {
+          "id": "net017",
+          "english": "MAC Address",
+          "chinese": "MAC地址",
+          "pronunciation": "/mæk əˈdrɛs/",
+          "example": "Each device has a unique MAC address",
+          "category": "basics"
+        },
+        {
+          "id": "net018",
+          "english": "Subnet",
+          "chinese": "子网",
+          "pronunciation": "/ˈsʌbnɛt/",
+          "example": "Divide the network into subnets",
+          "category": "basics"
+        },
+        {
+          "id": "net019",
+          "english": "Gateway",
+          "chinese": "网关",
+          "pronunciation": "/ˈɡeɪtweɪ/",
+          "example": "Default gateway for the network",
+          "category": "basics"
+        },
+        {
+          "id": "net020",
+          "english": "Router",
+          "chinese": "路由器",
+          "pronunciation": "/ˈruːtər/",
+          "example": "Configure the router settings",
+          "category": "hardware"
+        },
+        {
+          "id": "net021",
+          "english": "Switch",
+          "chinese": "交换机",
+          "pronunciation": "/swɪtʃ/",
+          "example": "Connect devices to the switch",
+          "category": "hardware"
+        },
+        {
+          "id": "net022",
+          "english": "Hub",
+          "chinese": "集线器",
+          "pronunciation": "/hʌb/",
+          "example": "Old network used hubs instead of switches",
+          "category": "hardware"
+        },
+        {
+          "id": "net023",
+          "english": "Packet",
+          "chinese": "数据包",
+          "pronunciation": "/ˈpækɪt/",
+          "example": "Network traffic is divided into packets",
+          "category": "basics"
+        },
+        {
+          "id": "net024",
+          "english": "Frame",
+          "chinese": "帧",
+          "pronunciation": "/freɪm/",
+          "example": "Data link layer uses frames",
+          "category": "basics"
+        },
+        {
+          "id": "net025",
+          "english": "MTU",
+          "chinese": "最大传输单元",
+          "pronunciation": "/ˌɛm tiː ˈjuː/",
+          "example": "Default MTU is 1500 bytes",
+          "category": "performance"
+        },
+        {
+          "id": "net026",
+          "english": "NAT",
+          "chinese": "网络地址转换",
+          "pronunciation": "/næt/",
+          "example": "Router uses NAT for multiple devices",
+          "category": "basics"
+        },
+        {
+          "id": "net027",
+          "english": "DHCP",
+          "chinese": "动态主机配置协议",
+          "pronunciation": "/ˌdiː siː eɪtʃ ˈpiː/",
+          "example": "DHCP assigns IP addresses automatically",
+          "category": "protocols"
+        },
+        {
+          "id": "net028",
+          "english": "ARP",
+          "chinese": "地址解析协议",
+          "pronunciation": "/ɑːrp/",
+          "example": "ARP resolves IP to MAC address",
+          "category": "protocols"
+        },
+        {
+          "id": "net029",
+          "english": "ICMP",
+          "chinese": "互联网控制消息协议",
+          "pronunciation": "/ˈaɪsɪmp/",
+          "example": "Ping uses ICMP protocol",
+          "category": "protocols"
+        },
+        {
+          "id": "net030",
+          "english": "FTP",
+          "chinese": "文件传输协议",
+          "pronunciation": "/ˌɛf tiː ˈpiː/",
+          "example": "Transfer files via FTP",
+          "category": "protocols"
+        },
+        {
+          "id": "net031",
+          "english": "SSH",
+          "chinese": "安全外壳协议",
+          "pronunciation": "/ˌɛs eɪtʃ ˈtʃeɪ/",
+          "example": "Connect via SSH for secure access",
+          "category": "security"
+        },
+        {
+          "id": "net032",
+          "english": "Telnet",
+          "chinese": "远程登录协议",
+          "pronunciation": "/ˈtɛlnɛt/",
+          "example": "Telnet is replaced by SSH",
+          "category": "protocols"
+        },
+        {
+          "id": "net033",
+          "english": "SMTP",
+          "chinese": "简单邮件传输协议",
+          "pronunciation": "/ˌɛs ɛm tiː ˈpiː/",
+          "example": "Send emails via SMTP",
+          "category": "protocols"
+        },
+        {
+          "id": "net034",
+          "english": "IMAP",
+          "chinese": "互联网消息访问协议",
+          "pronunciation": "/ˈaɪmæp/",
+          "example": "Access emails via IMAP",
+          "category": "protocols"
+        },
+        {
+          "id": "net035",
+          "english": "POP3",
+          "chinese": "邮局协议版本3",
+          "pronunciation": "/piː oʊ piː θriː/",
+          "example": "Download emails using POP3",
+          "category": "protocols"
+        },
+        {
+          "id": "net036",
+          "english": "OSI Model",
+          "chinese": "开放系统互连模型",
+          "pronunciation": "/oʊ ɛs aɪ ˈmɒdl/",
+          "example": "OSI model has 7 layers",
+          "category": "basics"
+        },
+        {
+          "id": "net037",
+          "english": "TCP Handshake",
+          "chinese": "TCP握手",
+          "pronunciation": "/tiː siː piː ˈhændʃeɪk/",
+          "example": "Three-way TCP handshake",
+          "category": "protocols"
+        },
+        {
+          "id": "net038",
+          "english": "UDP",
+          "chinese": "用户数据报协议",
+          "pronunciation": "/ˌjuː diː ˈpiː/",
+          "example": "UDP is faster but unreliable",
+          "category": "protocols"
+        },
+        {
+          "id": "net039",
+          "english": "IPv4 / IPv6",
+          "chinese": "互联网协议版本4/6",
+          "pronunciation": "/aɪ piː viː fɔːr / aɪ piː viː sɪks/",
+          "example": "Transition from IPv4 to IPv6",
+          "category": "basics"
+        },
+        {
+          "id": "net040",
+          "english": "Ping",
+          "chinese": "网络连通测试",
+          "pronunciation": "/pɪŋ/",
+          "example": "Ping the server to check connectivity",
+          "category": "tools"
+        },
+        {
+          "id": "net041",
+          "english": "Traceroute",
+          "chinese": "路由追踪",
+          "pronunciation": "/ˈtreɪsruːt/",
+          "example": "Use traceroute to see network path",
+          "category": "tools"
+        },
+        {
+          "id": "net042",
+          "english": "Netstat",
+          "chinese": "网络统计",
+          "pronunciation": "/ˈnɛtstæt/",
+          "example": "Check connections with netstat",
+          "category": "tools"
+        },
+        {
+          "id": "net043",
+          "english": "Nmap",
+          "chinese": "网络扫描工具",
+          "pronunciation": "/ˈɛnmæp/",
+          "example": "Scan ports with nmap",
+          "category": "tools"
+        },
+        {
+          "id": "net044",
+          "english": "Wireshark",
+          "chinese": "网络协议分析器",
+          "pronunciation": "/ˈwaɪərʃɑːrk/",
+          "example": "Capture packets with Wireshark",
+          "category": "tools"
+        },
+        {
+          "id": "net045",
+          "english": "tcpdump",
+          "chinese": "网络抓包工具",
+          "pronunciation": "/tiː siː piː dʌmp/",
+          "example": "Capture traffic with tcpdump",
+          "category": "tools"
+        },
+        {
+          "id": "net046",
+          "english": "Packet Loss",
+          "chinese": "丢包",
+          "pronunciation": "/ˈpækɪt lɒs/",
+          "example": "High packet loss affects quality",
+          "category": "performance"
+        },
+        {
+          "id": "net047",
+          "english": "Jitter",
+          "chinese": "抖动",
+          "pronunciation": "/ˈdʒɪtər/",
+          "example": "Network jitter affects real-time applications",
+          "category": "performance"
+        },
+        {
+          "id": "net048",
+          "english": "QoS",
+          "chinese": "服务质量",
+          "pronunciation": "/kjuː oʊ ɛs/",
+          "example": "Configure QoS for priority traffic",
+          "category": "performance"
+        },
+        {
+          "id": "net049",
+          "english": "DDoS",
+          "chinese": "分布式拒绝服务攻击",
+          "pronunciation": "/diː diː oʊ ɛs/",
+          "example": "Protect against DDoS attacks",
+          "category": "security"
+        },
+        {
+          "id": "net050",
+          "english": "Man-in-the-Middle",
+          "chinese": "中间人攻击",
+          "pronunciation": "/mæn ɪn ðə ˈmɪdl/",
+          "example": "Prevent man-in-the-middle attacks",
+          "category": "security"
         }
       ]
     },
@@ -3060,6 +5020,286 @@ const computerEnglishData = {
           "chinese": "单一职责",
           "pronunciation": "/ˈsɪŋɡl rɪˌspɒnsəˈbɪlɪti/",
           "example": "Each function should have single responsibility",
+          "category": "principles"
+        },
+        {
+          "id": "cr016",
+          "english": "Ship it",
+          "chinese": "合并发布",
+          "pronunciation": "/ʃɪp ɪt/",
+          "example": "Code looks good, ship it!",
+          "category": "approval"
+        },
+        {
+          "id": "cr017",
+          "english": "Rubber stamp",
+          "chinese": "快速批准",
+          "pronunciation": "/ˈrʌbər stæmp/",
+          "example": "I'll rubber stamp this change",
+          "category": "approval"
+        },
+        {
+          "id": "cr018",
+          "english": "Stamp of approval",
+          "chinese": "正式批准",
+          "pronunciation": "/stæmp əv əˈpruːvl/",
+          "example": "This has my stamp of approval",
+          "category": "approval"
+        },
+        {
+          "id": "cr019",
+          "english": "Needs work",
+          "chinese": "需要修改",
+          "pronunciation": "/niːdz wɜːrk/",
+          "example": "This PR needs work before merging",
+          "category": "feedback"
+        },
+        {
+          "id": "cr020",
+          "english": "Needs clarification",
+          "chinese": "需要澄清",
+          "pronunciation": "/niːdz ˌklærɪfɪˈkeɪʃn/",
+          "example": "This logic needs clarification",
+          "category": "feedback"
+        },
+        {
+          "id": "cr021",
+          "english": "Can you elaborate?",
+          "chinese": "能详细说明吗",
+          "pronunciation": "/kæn juː ɪˈlæbəreɪt/",
+          "example": "Can you elaborate on this approach?",
+          "category": "feedback"
+        },
+        {
+          "id": "cr022",
+          "english": "I'm not convinced",
+          "chinese": "我不确定/不认同",
+          "pronunciation": "/aɪm nɒt kənˈvɪnst/",
+          "example": "I'm not convinced this is the right approach",
+          "category": "feedback"
+        },
+        {
+          "id": "cr023",
+          "english": "I'd prefer",
+          "chinese": "我更倾向于",
+          "pronunciation": "/aɪd prɪˈfɜːr/",
+          "example": "I'd prefer a different approach here",
+          "category": "feedback"
+        },
+        {
+          "id": "cr024",
+          "english": "Why not",
+          "chinese": "为什么不",
+          "pronunciation": "/waɪ nɒt/",
+          "example": "Why not use a built-in function?",
+          "category": "feedback"
+        },
+        {
+          "id": "cr025",
+          "english": "What about",
+          "chinese": "...怎么样",
+          "pronunciation": "/wɒt əˈbaʊt/",
+          "example": "What about error handling?",
+          "category": "feedback"
+        },
+        {
+          "id": "cr026",
+          "english": "How about",
+          "chinese": "...如何",
+          "pronunciation": "/haʊ əˈbaʊt/",
+          "example": "How about using constants?",
+          "category": "feedback"
+        },
+        {
+          "id": "cr027",
+          "english": "Take another look",
+          "chinese": "再看一眼",
+          "pronunciation": "/teɪk əˈnʌðər lʊk/",
+          "example": "Please take another look at this",
+          "category": "feedback"
+        },
+        {
+          "id": "cr028",
+          "english": "Double check",
+          "chinese": "仔细检查",
+          "pronunciation": "/ˈdʌbl tʃɛk/",
+          "example": "Double check this condition",
+          "category": "feedback"
+        },
+        {
+          "id": "cr029",
+          "english": "Watch out for",
+          "chinese": "注意",
+          "pronunciation": "/wɒtʃ aʊt fɔːr/",
+          "example": "Watch out for null values",
+          "category": "feedback"
+        },
+        {
+          "id": "cr030",
+          "english": "Be careful with",
+          "chinese": "小心处理",
+          "pronunciation": "/biː ˈkɛərfʊl wɪð/",
+          "example": "Be careful with this change",
+          "category": "feedback"
+        },
+        {
+          "id": "cr031",
+          "english": "Inconsistent",
+          "chinese": "不一致的",
+          "pronunciation": "/ˌɪnkənˈsɪstənt/",
+          "example": "This is inconsistent with the codebase style",
+          "category": "feedback"
+        },
+        {
+          "id": "cr032",
+          "english": "Missing",
+          "chinese": "缺少的",
+          "pronunciation": "/ˈmɪsɪŋ/",
+          "example": "Missing error handling here",
+          "category": "feedback"
+        },
+        {
+          "id": "cr033",
+          "english": "Unnecessary",
+          "chinese": "不必要的",
+          "pronunciation": "/ʌnˈnesəsɛri/",
+          "example": "This seems unnecessary",
+          "category": "feedback"
+        },
+        {
+          "id": "cr034",
+          "english": "Overcomplicated",
+          "chinese": "过于复杂",
+          "pronunciation": "/ˌoʊvərˈkɒmplɪkeɪtɪd/",
+          "example": "This solution is overcomplicated",
+          "category": "feedback"
+        },
+        {
+          "id": "cr035",
+          "english": "Could be simpler",
+          "chinese": "可以更简洁",
+          "pronunciation": "/kʊd biː ˈsɪmplər/",
+          "example": "This could be simpler",
+          "category": "feedback"
+        },
+        {
+          "id": "cr036",
+          "english": "Security concern",
+          "chinese": "安全问题",
+          "pronunciation": "/sɪˈkjʊərəti kənˈsɜːrn/",
+          "example": "This raises a security concern",
+          "category": "feedback"
+        },
+        {
+          "id": "cr037",
+          "english": "Performance issue",
+          "chinese": "性能问题",
+          "pronunciation": "/pərˈfɔːrməns ˈɪʃuː/",
+          "example": "This might cause performance issues",
+          "category": "feedback"
+        },
+        {
+          "id": "cr038",
+          "english": "Potential bug",
+          "chinese": "潜在bug",
+          "pronunciation": "/pəˈtɛnʃəl bʌɡ/",
+          "example": "This looks like a potential bug",
+          "category": "feedback"
+        },
+        {
+          "id": "cr039",
+          "english": "Typo",
+          "chinese": "拼写错误",
+          "pronunciation": "/ˈtaɪpoʊ/",
+          "example": "Fixed typo in variable name",
+          "category": "feedback"
+        },
+        {
+          "id": "cr040",
+          "english": "Format",
+          "chinese": "格式化",
+          "pronunciation": "/ˈfɔːrmæt/",
+          "example": "Please format this code",
+          "category": "feedback"
+        },
+        {
+          "id": "cr041",
+          "english": "Indentation",
+          "chinese": "缩进",
+          "pronunciation": "/ˌɪndɛnˈteɪʃən/",
+          "example": "Fix the indentation here",
+          "category": "feedback"
+        },
+        {
+          "id": "cr042",
+          "english": "Naming convention",
+          "chinese": "命名规范",
+          "pronunciation": "/ˈneɪmɪŋ kənˈvɛnʃən/",
+          "example": "Follow the naming convention",
+          "category": "principles"
+        },
+        {
+          "id": "cr043",
+          "english": "YAGNI",
+          "chinese": "你不会需要它",
+          "pronunciation": "/ˈjæɡni/",
+          "example": "YAGNI - remove unused code",
+          "category": "principles"
+        },
+        {
+          "id": "cr044",
+          "english": "KISS",
+          "chinese": "保持简单直接",
+          "pronunciation": "/kɪs/",
+          "example": "KISS principle - keep it simple",
+          "category": "principles"
+        },
+        {
+          "id": "cr045",
+          "english": "Boy Scout Rule",
+          "chinese": "童子军规则",
+          "pronunciation": "/bɔɪ skaʊt ruːl/",
+          "example": "Follow Boy Scout Rule: leave code cleaner",
+          "category": "principles"
+        },
+        {
+          "id": "cr046",
+          "english": "SOLID",
+          "chinese": "面向对象设计原则",
+          "pronunciation": "/ˈsɒlɪd/",
+          "example": "Follow SOLID principles",
+          "category": "principles"
+        },
+        {
+          "id": "cr047",
+          "english": "Open/Closed Principle",
+          "chinese": "开闭原则",
+          "pronunciation": "/ˈoʊpən ˈkloʊzd ˈprɪnsəpl/",
+          "example": "Classes should be open for extension",
+          "category": "principles"
+        },
+        {
+          "id": "cr048",
+          "english": "Liskov Substitution",
+          "chinese": "里氏替换原则",
+          "pronunciation": "/ˈlɪskɒv ˌsʌbstɪˈtuːʃən/",
+          "example": "Follow Liskov Substitution Principle",
+          "category": "principles"
+        },
+        {
+          "id": "cr049",
+          "english": "Interface Segregation",
+          "chinese": "接口隔离原则",
+          "pronunciation": "/ˈɪntərfeɪs ˌsɛɡrɪˈɡeɪʃən/",
+          "example": "Apply Interface Segregation Principle",
+          "category": "principles"
+        },
+        {
+          "id": "cr050",
+          "english": "Dependency Inversion",
+          "chinese": "依赖倒置原则",
+          "pronunciation": "/dɪˈpɛndənsi ɪnˈvɜːrʒən/",
+          "example": "Use Dependency Inversion Principle",
           "category": "principles"
         }
       ]
@@ -3189,6 +5429,286 @@ const computerEnglishData = {
           "pronunciation": "/ˈeɪdʒənt/",
           "example": "Build an AI agent",
           "category": "concepts"
+        },
+        {
+          "id": "ai016",
+          "english": "Neural Network",
+          "chinese": "神经网络",
+          "pronunciation": "/ˈnjʊərəl ˈnɛtwɜːrk/",
+          "example": "Train a deep neural network",
+          "category": "concepts"
+        },
+        {
+          "id": "ai017",
+          "english": "Supervised Learning",
+          "chinese": "监督学习",
+          "pronunciation": "/ˈsuːpəvaɪzd ˈlɜːrnɪŋ/",
+          "example": "Use supervised learning with labeled data",
+          "category": "training"
+        },
+        {
+          "id": "ai018",
+          "english": "Unsupervised Learning",
+          "chinese": "无监督学习",
+          "pronunciation": "/ʌnˈsuːpəvaɪzd ˈlɜːrnɪŋ/",
+          "example": "Cluster data with unsupervised learning",
+          "category": "training"
+        },
+        {
+          "id": "ai019",
+          "english": "Reinforcement Learning",
+          "chinese": "强化学习",
+          "pronunciation": "/ˌriːɪnˈfɔːrsmənt ˈlɜːrnɪŋ/",
+          "example": "Game AI uses reinforcement learning",
+          "category": "training"
+        },
+        {
+          "id": "ai020",
+          "english": "Transfer Learning",
+          "chinese": "迁移学习",
+          "pronunciation": "/ˈtrænsfɜːr ˈlɜːrnɪŋ/",
+          "example": "Apply transfer learning to new domain",
+          "category": "training"
+        },
+        {
+          "id": "ai021",
+          "english": "Epoch",
+          "chinese": "轮次/周期",
+          "pronunciation": "/ˈɛpɒk/",
+          "example": "Train for 100 epochs",
+          "category": "training"
+        },
+        {
+          "id": "ai022",
+          "english": "Batch",
+          "chinese": "批次",
+          "pronunciation": "/bætʃ/",
+          "example": "Process data in batches of 32",
+          "category": "training"
+        },
+        {
+          "id": "ai023",
+          "english": "Learning Rate",
+          "chinese": "学习率",
+          "pronunciation": "/ˈlɜːrnɪŋ reɪt/",
+          "example": "Adjust the learning rate",
+          "category": "training"
+        },
+        {
+          "id": "ai024",
+          "english": "Loss Function",
+          "chinese": "损失函数",
+          "pronunciation": "/lɒs ˈfʌŋkʃən/",
+          "example": "Minimize the loss function",
+          "category": "training"
+        },
+        {
+          "id": "ai025",
+          "english": "Gradient Descent",
+          "chinese": "梯度下降",
+          "pronunciation": "/ˈɡreɪdiənt dɪˈsɛnt/",
+          "example": "Use stochastic gradient descent",
+          "category": "training"
+        },
+        {
+          "id": "ai026",
+          "english": "Backpropagation",
+          "chinese": "反向传播",
+          "pronunciation": "/ˌbækprɒpəˈɡeɪʃən/",
+          "example": "Compute gradients via backpropagation",
+          "category": "training"
+        },
+        {
+          "id": "ai027",
+          "english": "Activation Function",
+          "chinese": "激活函数",
+          "pronunciation": "/ˌæktɪˈveɪʃən ˈfʌŋkʃən/",
+          "example": "Use ReLU activation function",
+          "category": "concepts"
+        },
+        {
+          "id": "ai028",
+          "english": "CNN",
+          "chinese": "卷积神经网络",
+          "pronunciation": "/siː ɛn ɛn/",
+          "example": "CNN for image recognition",
+          "category": "architecture"
+        },
+        {
+          "id": "ai029",
+          "english": "RNN",
+          "chinese": "循环神经网络",
+          "pronunciation": "/ɑːr ɛn ɛn/",
+          "example": "RNN for sequence data",
+          "category": "architecture"
+        },
+        {
+          "id": "ai030",
+          "english": "LSTM",
+          "chinese": "长短期记忆网络",
+          "pronunciation": "/ɛl ɛs tiː ɛm/",
+          "example": "LSTM for long sequences",
+          "category": "architecture"
+        },
+        {
+          "id": "ai031",
+          "english": "Transformer",
+          "chinese": "Transformer架构",
+          "pronunciation": "/trænsˈfɔːrmər/",
+          "example": "BERT uses Transformer architecture",
+          "category": "architecture"
+        },
+        {
+          "id": "ai032",
+          "english": "Attention",
+          "chinese": "注意力机制",
+          "pronunciation": "/əˈtɛnʃən/",
+          "example": "Self-attention mechanism",
+          "category": "architecture"
+        },
+        {
+          "id": "ai033",
+          "english": "BERT",
+          "chinese": "BERT模型",
+          "pronunciation": "/bɜːrt/",
+          "example": "Fine-tune BERT for classification",
+          "category": "models"
+        },
+        {
+          "id": "ai034",
+          "english": "GPT",
+          "chinese": "生成式预训练模型",
+          "pronunciation": "/dʒiː piː tiː/",
+          "example": "GPT-4 is a powerful LLM",
+          "category": "models"
+        },
+        {
+          "id": "ai035",
+          "english": "Classification",
+          "chinese": "分类",
+          "pronunciation": "/ˌklæsɪfɪˈkeɪʃən/",
+          "example": "Image classification task",
+          "category": "tasks"
+        },
+        {
+          "id": "ai036",
+          "english": "Regression",
+          "chinese": "回归",
+          "pronunciation": "/rɪˈɡrɛʃən/",
+          "example": "Linear regression for prediction",
+          "category": "tasks"
+        },
+        {
+          "id": "ai037",
+          "english": "Clustering",
+          "chinese": "聚类",
+          "pronunciation": "/ˈklʌstərɪŋ/",
+          "example": "K-means clustering algorithm",
+          "category": "tasks"
+        },
+        {
+          "id": "ai038",
+          "english": "Dimensionality Reduction",
+          "chinese": "降维",
+          "pronunciation": "/daɪˌmɛnʃəˈnælɪti rɪˈdʌkʃən/",
+          "example": "PCA for dimensionality reduction",
+          "category": "techniques"
+        },
+        {
+          "id": "ai039",
+          "english": "Cross-validation",
+          "chinese": "交叉验证",
+          "pronunciation": "/krɒs ˌvælɪˈdeɪʃən/",
+          "example": "Use 5-fold cross-validation",
+          "category": "evaluation"
+        },
+        {
+          "id": "ai040",
+          "english": "Precision",
+          "chinese": "精确率",
+          "pronunciation": "/prɪˈsɪʒən/",
+          "example": "High precision means few false positives",
+          "category": "evaluation"
+        },
+        {
+          "id": "ai041",
+          "english": "Recall",
+          "chinese": "召回率",
+          "pronunciation": "/rɪˈkɔːl/",
+          "example": "High recall means few false negatives",
+          "category": "evaluation"
+        },
+        {
+          "id": "ai042",
+          "english": "F1 Score",
+          "chinese": "F1分数",
+          "pronunciation": "/ɛf wʌn skɔːr/",
+          "example": "F1 score balances precision and recall",
+          "category": "evaluation"
+        },
+        {
+          "id": "ai043",
+          "english": "Confusion Matrix",
+          "chinese": "混淆矩阵",
+          "pronunciation": "/kənˈfjuːʒən ˈmeɪtrɪks/",
+          "example": "Analyze results with confusion matrix",
+          "category": "evaluation"
+        },
+        {
+          "id": "ai044",
+          "english": "ROC Curve",
+          "chinese": "ROC曲线",
+          "pronunciation": "/ɑːr oʊ siː kɜːrv/",
+          "example": "Plot the ROC curve",
+          "category": "evaluation"
+        },
+        {
+          "id": "ai045",
+          "english": "AUC",
+          "chinese": "曲线下面积",
+          "pronunciation": "/eɪ juː siː/",
+          "example": "AUC measures model performance",
+          "category": "evaluation"
+        },
+        {
+          "id": "ai046",
+          "english": "Bias",
+          "chinese": "偏差/偏见",
+          "pronunciation": "/ˈbaɪəs/",
+          "example": "Check for bias in training data",
+          "category": "ethics"
+        },
+        {
+          "id": "ai047",
+          "english": "Fairness",
+          "chinese": "公平性",
+          "pronunciation": "/ˈfɛərnəs/",
+          "example": "Ensure AI fairness across groups",
+          "category": "ethics"
+        },
+        {
+          "id": "ai048",
+          "english": "Explainability",
+          "chinese": "可解释性",
+          "pronunciation": "/ɪkˌspleɪnəˈbɪlɪti/",
+          "example": "Improve model explainability",
+          "category": "ethics"
+        },
+        {
+          "id": "ai049",
+          "english": "MLOps",
+          "chinese": "机器学习运维",
+          "pronunciation": "/ɛm ɛl ɒps/",
+          "example": "Implement MLOps pipeline",
+          "category": "operations"
+        },
+        {
+          "id": "ai050",
+          "english": "Data Augmentation",
+          "chinese": "数据增强",
+          "pronunciation": "/ˈdeɪtə ˌɔːɡmɛnˈteɪʃən/",
+          "example": "Use data augmentation for images",
+          "category": "techniques"
         }
       ]
     },
@@ -3317,6 +5837,286 @@ const computerEnglishData = {
           "pronunciation": "/ˈroʊlbæk/",
           "example": "Execute rollback plan",
           "category": "devops"
+        },
+        {
+          "id": "ag016",
+          "english": "Sprint Planning",
+          "chinese": "冲刺计划会议",
+          "pronunciation": "/sprɪnt ˈplænɪŋ/",
+          "example": "Attend sprint planning meeting",
+          "category": "scrum"
+        },
+        {
+          "id": "ag017",
+          "english": "Sprint Review",
+          "chinese": "冲刺评审",
+          "pronunciation": "/sprɪnt rɪˈvjuː/",
+          "example": "Demo features in sprint review",
+          "category": "scrum"
+        },
+        {
+          "id": "ag018",
+          "english": "Burndown Chart",
+          "chinese": "燃尽图",
+          "pronunciation": "/ˈbɜːrndaʊn tʃɑːrt/",
+          "example": "Check the burndown chart daily",
+          "category": "scrum"
+        },
+        {
+          "id": "ag019",
+          "english": "Velocity",
+          "chinese": "速率/速度",
+          "pronunciation": "/vəˈlɒsɪti/",
+          "example": "Team velocity is 40 points per sprint",
+          "category": "scrum"
+        },
+        {
+          "id": "ag020",
+          "english": "Story Point",
+          "chinese": "故事点",
+          "pronunciation": "/ˈstɔːri pɔɪnt/",
+          "example": "Estimate tasks in story points",
+          "category": "scrum"
+        },
+        {
+          "id": "ag021",
+          "english": "Definition of Done",
+          "chinese": "完成定义",
+          "pronunciation": "/ˌdɛfɪˈnɪʃən əv dʌn/",
+          "example": "Meet the definition of done",
+          "category": "scrum"
+        },
+        {
+          "id": "ag022",
+          "english": "Definition of Ready",
+          "chinese": "准备就绪定义",
+          "pronunciation": "/ˌdɛfɪˈnɪʃən əv ˈrɛdi/",
+          "example": "Story meets definition of ready",
+          "category": "scrum"
+        },
+        {
+          "id": "ag023",
+          "english": "Product Owner",
+          "chinese": "产品负责人",
+          "pronunciation": "/ˈprɒdʌkt ˈoʊnər/",
+          "example": "Product Owner prioritizes backlog",
+          "category": "roles"
+        },
+        {
+          "id": "ag024",
+          "english": "Scrum Master",
+          "chinese": "Scrum主管",
+          "pronunciation": "/skrʌm ˈmɑːstər/",
+          "example": "Scrum Master facilitates ceremonies",
+          "category": "roles"
+        },
+        {
+          "id": "ag025",
+          "english": "Stakeholder",
+          "chinese": "利益相关者",
+          "pronunciation": "/ˈsteɪkhoʊldər/",
+          "example": "Gather feedback from stakeholders",
+          "category": "roles"
+        },
+        {
+          "id": "ag026",
+          "english": "Acceptance Criteria",
+          "chinese": "验收标准",
+          "pronunciation": "/əkˈsɛptəns kraɪˈtɪəriə/",
+          "example": "Define clear acceptance criteria",
+          "category": "scrum"
+        },
+        {
+          "id": "ag027",
+          "english": "Release Planning",
+          "chinese": "发布计划",
+          "pronunciation": "/rɪˈliːs ˈplænɪŋ/",
+          "example": "Create release planning roadmap",
+          "category": "planning"
+        },
+        {
+          "id": "ag028",
+          "english": "Roadmap",
+          "chinese": "路线图",
+          "pronunciation": "/ˈroʊdmæp/",
+          "example": "Update the product roadmap",
+          "category": "planning"
+        },
+        {
+          "id": "ag029",
+          "english": "Timeboxing",
+          "chinese": "时间盒",
+          "pronunciation": "/ˈtaɪmbɒksɪŋ/",
+          "example": "Use timeboxing for meetings",
+          "category": "methodology"
+        },
+        {
+          "id": "ag030",
+          "english": "Pair Programming",
+          "chinese": "结对编程",
+          "pronunciation": "/pɛər ˈproʊɡræmɪŋ/",
+          "example": "Practice pair programming",
+          "category": "methodology"
+        },
+        {
+          "id": "ag031",
+          "english": "Mob Programming",
+          "chinese": "集体编程",
+          "pronunciation": "/mɒb ˈproʊɡræmɪŋ/",
+          "example": "Team does mob programming",
+          "category": "methodology"
+        },
+        {
+          "id": "ag032",
+          "english": "Test Driven Development",
+          "chinese": "测试驱动开发",
+          "pronunciation": "/tɛst ˈdrɪvən dɪˈvɛləpmənt/",
+          "example": "Follow TDD: write tests first",
+          "category": "methodology"
+        },
+        {
+          "id": "ag033",
+          "english": "Behavior Driven Development",
+          "chinese": "行为驱动开发",
+          "pronunciation": "/bɪˈheɪvjər ˈdrɪvən dɪˈvɛləpmənt/",
+          "example": "Use BDD for clearer requirements",
+          "category": "methodology"
+        },
+        {
+          "id": "ag034",
+          "english": "Domain Driven Design",
+          "chinese": "领域驱动设计",
+          "pronunciation": "/doʊˈmeɪn ˈdrɪvən dɪˈzaɪn/",
+          "example": "Apply domain driven design",
+          "category": "methodology"
+        },
+        {
+          "id": "ag035",
+          "english": "Continuous Integration",
+          "chinese": "持续集成",
+          "pronunciation": "/kənˈtɪnjuəs ˌɪntɪˈɡreɪʃən/",
+          "example": "Set up continuous integration",
+          "category": "devops"
+        },
+        {
+          "id": "ag036",
+          "english": "Continuous Delivery",
+          "chinese": "持续交付",
+          "pronunciation": "/kənˈtɪnjuəs dɪˈlɪvəri/",
+          "example": "Achieve continuous delivery",
+          "category": "devops"
+        },
+        {
+          "id": "ag037",
+          "english": "Continuous Deployment",
+          "chinese": "持续部署",
+          "pronunciation": "/kənˈtɪnjuəs dɪˈplɔɪmənt/",
+          "example": "Enable continuous deployment",
+          "category": "devops"
+        },
+        {
+          "id": "ag038",
+          "english": "Infrastructure as Code",
+          "chinese": "基础设施即代码",
+          "pronunciation": "/ˈɪnfrəˌstrʌktʃər æz koʊd/",
+          "example": "Manage infrastructure as code",
+          "category": "devops"
+        },
+        {
+          "id": "ag039",
+          "english": "GitOps",
+          "chinese": "Git运维",
+          "pronunciation": "/ɡɪt ɒps/",
+          "example": "Implement GitOps workflow",
+          "category": "devops"
+        },
+        {
+          "id": "ag040",
+          "english": "Feature Branch",
+          "chinese": "功能分支",
+          "pronunciation": "/ˈfiːtʃər bræntʃ/",
+          "example": "Create a feature branch",
+          "category": "version-control"
+        },
+        {
+          "id": "ag041",
+          "english": "Trunk Based Development",
+          "chinese": "主干开发",
+          "pronunciation": "/trʌŋk beɪst dɪˈvɛləpmənt/",
+          "example": "Practice trunk based development",
+          "category": "version-control"
+        },
+        {
+          "id": "ag042",
+          "english": "Shift Left",
+          "chinese": "左移",
+          "pronunciation": "/ʃɪft lɛft/",
+          "example": "Shift left on testing",
+          "category": "methodology"
+        },
+        {
+          "id": "ag043",
+          "english": "Fail Fast",
+          "chinese": "快速失败",
+          "pronunciation": "/feɪl fɑːst/",
+          "example": "Fail fast to learn quickly",
+          "category": "methodology"
+        },
+        {
+          "id": "ag044",
+          "english": "Psychological Safety",
+          "chinese": "心理安全",
+          "pronunciation": "/ˌsaɪkəˈlɒdʒɪkl ˈseɪfti/",
+          "example": "Build psychological safety in team",
+          "category": "culture"
+        },
+        {
+          "id": "ag045",
+          "english": "Collective Ownership",
+          "chinese": "集体所有权",
+          "pronunciation": "/kəˈlɛktɪv ˈoʊnərʃɪp/",
+          "example": "Practice collective code ownership",
+          "category": "culture"
+        },
+        {
+          "id": "ag046",
+          "english": "Sustainable Pace",
+          "chinese": "可持续节奏",
+          "pronunciation": "/səˈsteɪnəbleɪ peɪs/",
+          "example": "Maintain sustainable pace",
+          "category": "culture"
+        },
+        {
+          "id": "ag047",
+          "english": "Information Radiator",
+          "chinese": "信息发射源",
+          "pronunciation": "/ˌɪnfərˈmeɪʃən ˈreɪdieɪtər/",
+          "example": "Use dashboard as information radiator",
+          "category": "scrum"
+        },
+        {
+          "id": "ag048",
+          "english": "Impediment",
+          "chinese": "障碍",
+          "pronunciation": "/ɪmˈpɛdɪmənt/",
+          "example": "Remove impediments for the team",
+          "category": "scrum"
+        },
+        {
+          "id": "ag049",
+          "english": "Story Mapping",
+          "chinese": "故事地图",
+          "pronunciation": "/ˈstɔːri ˈmæpɪŋ/",
+          "example": "Create user story mapping",
+          "category": "planning"
+        },
+        {
+          "id": "ag050",
+          "english": "Walking Skeleton",
+          "chinese": "行走骨架",
+          "pronunciation": "/ˈwɔːkɪŋ ˈskɛlɪtn/",
+          "example": "Build a walking skeleton first",
+          "category": "planning"
         }
       ]
     }
